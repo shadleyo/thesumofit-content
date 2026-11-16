@@ -1,475 +1,484 @@
 {
- "Daily": {
-  "date": "Oct 28, 2026",
-  "playlist": "Time does the work",
-  "title": "$1, $10 or $20 a day for 40 years",
-  "desc": "Three savers invest $1, $10 and $20 a day for 40 years. They put in $14,600, $146,000 and $292,000. At the end: $79,838, $798,381 and $1,596,761. Assumes a steady 7% yearly return, compounded monthly, before fees, tax and inflation.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#investing #compoundinterest #saving #personalfinance #shorts",
-  "tags": "personal finance,money,investing,compound interest,money tips,saving money,small habits,",
-  "problem": "0:01 What do $1, $10 and $20 a day become if invested for 40 years at 7%?",
-  "tt": "$20 a day for 40 years becomes $1.6 million. The maths of small amounts and long time. Illustration only, 7% a year, not financial advice. #investing #compoundinterest #personalfinance #moneytips #savingmoney",
-  "yt": "YokDrJEOogs"
- },
- "Rate": {
-  "date": "Oct 30, 2026",
-  "playlist": "Time does the work",
-  "title": "Why 1% is worth $259,858",
-  "desc": "Priya and Tom both invest $300 a month for 40 years and put in $144,000 each. Priya earns 7% a year and ends with $787,444. Tom earns 8% and ends with $1,047,302: a gap of $259,858 from one percentage point. That is why fees matter. Assumes steady yearly returns, compounded monthly, before fees, tax and inflation.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#investing #compoundinterest #fees #personalfinance #shorts",
-  "tags": "personal finance,money,investing,compound interest,investment fees,money tips,index funds,",
-  "problem": "0:01 How much difference does earning 8% instead of 7% make on $300 a month over 40 years?",
-  "tt": "7% vs 8% on $300 a month for 40 years: a $259,858 difference. Why fees matter. Illustration only, not financial advice. #investing #compoundinterest #personalfinance #moneytips #fees",
-  "yt": "wKLCqXYP2kg"
- },
- "Penny": {
-  "date": "Nov 2, 2026",
-  "playlist": "Time does the work",
-  "title": "$1 million or a penny doubled for 30 days?",
-  "desc": "Jordan takes $1,000,000 today. Riley takes one cent that doubles every day for 30 days. On day 20 the penny is worth just $5,242.88. It passes the million on day 28, and on day 30 it is worth $5,368,709.12. Half of it arrives on the last day. A thought experiment: no real investment doubles daily, but compounding has the same shape.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#compoundinterest #money #maths #personalfinance #shorts",
-  "tags": "personal finance,money,compound interest,penny doubled,exponential growth,money tips,maths,",
-  "problem": "0:01 Which is worth more after 30 days: $1 million today, or a penny that doubles every day?",
-  "tt": "$1 million today, or a penny doubled every day for 30 days? The penny wins with $5.37 million. Thought experiment, not financial advice. #compoundinterest #money #maths #personalfinance #moneytips",
-  "yt": "-nydbs2vNsY"
- },
- "Million": {
-  "date": "Nov 4, 2026",
-  "playlist": "Time does the work",
-  "title": "How much a month for $1M by 65?",
-  "desc": "To have $1,000,000 by 65, Ana starts at 25 and needs $381 a month. Ben starts at 35 and needs $820. Cleo starts at 45 and needs $1,920. Ana puts in $182,880, Cleo $460,800. Same million, different effort. Assumes a steady 7% yearly return, compounded monthly, before fees, tax and inflation.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#investing #retirement #millionaire #personalfinance #shorts",
-  "tags": "personal finance,money,investing,retirement,million dollars,start investing early,compound interest,",
-  "problem": "0:01 How much must you invest each month to have $1 million by 65 if you start at 25, 35 or 45?",
-  "tt": "$1 million by 65: $381 a month from 25, $820 from 35, $1,920 from 45. Illustration only, 7% a year, not financial advice. #investing #retirement #personalfinance #moneytips #compoundinterest",
-  "yt": "-nBnKWe0vsA"
- },
- "StoreCard": {
-  "date": "Nov 6, 2026",
-  "playlist": "Debt, run through the numbers",
-  "title": "$1,000 on a store card: the minimum trap",
-  "desc": "Sam owes $1,000 on a store card at 29% and pays only the minimum: 83 months and $1,203 in interest, more than the purchase itself. Alex pays a fixed $50 a month: clear in 28 months with $383 of interest. Assumes 29% APR, no new spending, minimum = interest + 1% of balance (at least $25). Card terms vary.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#debt #creditcard #minimumpayment #personalfinance #shorts",
-  "tags": "personal finance,money,debt,store card,credit card interest,minimum payment,debt free,",
-  "problem": "0:01 How long does it take to clear $1,000 on a 29% store card paying only the minimum, compared with $50 a month?",
-  "tt": "$1,000 on a 29% store card, paying the minimum: 7 years and $1,203 in interest. Pay $50 a month instead and it is gone in 28 months. Illustration only. #debt #creditcard #personalfinance #moneytips #debtfree",
-  "yt": "sASrJ5dsDTA"
- },
- "EarlyStart": {
-  "yt": "5pxCHYbUnQE",
-  "date": "Oct 26, 2026",
-  "title": "10 years of saving beat 30 years",
-  "tt": "Maya saves $200 a month for 10 years. Leo saves for 30. Maya ends up with more. Illustration only, 7% a year, not financial advice. #investing #compoundinterest #personalfinance #moneytips #saving"
- },
- "Coffee": {
-  "date": "now",
-  "yt": "edMIPISxsTM",
-  "tt": "$5 a day on coffee for 30 years: $54,750 spent. Invest it instead and it grows to about $185,000. Illustration only, 7% a year, not financial advice. #personalfinance #moneytips #investing #compoundinterest #saving"
- },
- "CreditCard": {
-  "date": "Oct 19, 2026",
-  "yt": "SiXG8OWJAcw",
-  "tt": "Pay the minimum on $5,000 at 22% and it takes over 19 years. Pay $200 a month and it is gone in under 3. Illustration only, not financial advice. #debt #creditcard #personalfinance #moneytips #debtfree"
- },
- "Fees": {
-  "date": "Oct 21, 2026",
-  "yt": "huMmZK0oA8c",
-  "tt": "A 2% fee sounds tiny. On $300 a month for 30 years it cost $98,762. Illustration only, not financial advice. #investing #fees #personalfinance #moneytips #compoundinterest"
- },
- "RuleOf72": {
-  "date": "Oct 23, 2026",
-  "yt": "owgeo_qHz3E",
-  "tt": "How fast does your money double? Divide 72 by your yearly return. The Rule of 72, in 60 seconds. Illustration only, not financial advice. #investing #ruleof72 #personalfinance #moneytips #compoundinterest"
- },
- "SwingGas": {
-  "date": "Oct 24, 2026",
-  "playlist": "The Iran war, in numbers",
-  "title": "Gas prices in the 13 states that could decide the Senate",
-  "yt": "MVKQd21t1Cw",
-  "tt": "Gas in the 13 states that could decide the Senate: up more than $1 a gallon in 11 of them since the Iran war began. AAA prices, 20-21 Oct. Costs only, no sides taken. #gasprices #midterms #iranwar #economy #costofliving"
- },
- "WarVote": {
-  "date": "Oct 25, 2026",
-  "title": "49 to 50: the vote on ending the Iran war",
-  "desc": "On 24 September 2026 the Senate voted 49 to 50 on a resolution directing an end to U.S. involvement in the Iran war. One senator did not vote. It was the 14th Senate vote on Iran war powers since the war began on 28 February; 13 have failed. The one that passed, in June (Senate 50-48, House 215-208), was a concurrent resolution that never goes to the president, and experts called it largely symbolic. In July, the House passed a new resolution 214-208; the Senate rejected it 47-49.\n\nSources: ABC News (24 Sep 2026), Al Jazeera (24 Jun and 23 Jul 2026), Carolina Political Review (15 Oct 2026).\n\nPart of the series: The Iran war, in numbers. This video reports figures only and does not endorse any party or candidate.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#iranwar #congress #senate #midterms #shorts",
-  "tags": "iran war,war powers resolution,senate vote,congress,midterms 2026,us politics,iran war in numbers,",
-  "tt": "The Senate vote on ending the Iran war: 49 to 50. One senator didn't vote. 14 votes, 13 failed. Figures only, no sides taken. #iranwar #senate #congress #midterms #politics",
-  "playlist": "The Iran war, in numbers",
-  "yt": "vdrj4a9XL1Y"
- },
- "WarBill": {
-  "date": "Oct 27, 2026",
-  "title": "The Iran war bill: $320 per household so far",
-  "desc": "By the Pentagon's own count, the Iran war cost the U.S. military $43.6 billion from 28 February to 3 September 2026: about $230 million a day, or about $320 per U.S. household. In June the White House requested $67.1 billion more for the Pentagon (about $500 per household). In July the House passed a budget plan with $73 billion for the Pentagon and national security, 216-214. The Congressional Budget Office estimates $2-3 billion for every further month. Figures overlap and are not additive.\n\nSources: Roll Call (18 Sep 2026), Aviation Week (24 Jun 2026), PBS NewsHour (22 Jul 2026), U.S. Census/FRED households (2025).\n\nPart of the series: The Iran war, in numbers. This video reports figures only and does not endorse any party or candidate.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#iranwar #pentagon #taxes #economy #shorts",
-  "tags": "iran war,iran war cost,pentagon budget,war spending,taxpayers,midterms 2026,iran war in numbers,",
-  "tt": "The Iran war has cost the Pentagon $43.6bn so far: about $230m a day, or $320 per U.S. household. And $67bn more is requested. Figures only. #iranwar #pentagon #taxes #economy #costofliving",
-  "playlist": "The Iran war, in numbers",
-  "yt": "KBMg8iSeYqo"
- },
- "AfterVote": {
-  "date": "Oct 29, 2026",
-  "title": "Gas prices after the midterms: the forecast",
-  "desc": "What the U.S. Energy Information Administration expects after 3 November. Brent oil closed at $72.48 before the war (27 Feb); EIA forecasts an average of $105 for October-December 2026. Regular gas was $2.98 before the war and $4.26 today (AAA, 21 Oct); EIA forecasts $3.56 for 2027. Diesel is $6.32 today, forecast about $4.50 in 2027, vs $3.76 before the war. Homes heating with oil are forecast to pay about 21% more this winter.\n\nSources: EIA Short-Term Energy Outlook and Winter Fuels Outlook (6 Oct 2026), AAA (21 Oct 2026). Forecasts can change.\n\nPart of the series: The Iran war, in numbers. This video reports figures only and does not endorse any party or candidate.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#gasprices #oil #iranwar #economy #shorts",
-  "tags": "gas prices,gas price forecast,oil prices,diesel,heating oil,iran war,midterms 2026,",
-  "tt": "After the midterms, the fuel bill keeps coming. EIA forecasts gas at $3.56 in 2027, still above $2.98 before the war. Figures only. #gasprices #oil #iranwar #economy #costofliving",
-  "playlist": "The Iran war, in numbers",
-  "yt": "wFa-0huDNNA"
- },
- "HumanCost": {
-  "date": "Oct 31, 2026",
-  "title": "The cost of the Iran war no budget covers",
-  "desc": "The human cost of the 2026 Iran war, in numbers. The Pentagon reports 21 U.S. service members killed and 865 wounded (October 2026). In Iran, the rights group HRANA has counted 3,684 deaths, more than 1,700 of them civilians and at least 254 children. Lebanon's health ministry reports 4,383 killed; Israel, 72; Gulf states, around 50. Together, more than 8,000 people. Sources and dates differ.\n\nSources: Pentagon via The Washington Post (Oct 2026), HRANA, Lebanese Health Ministry, compiled in Wikipedia's Casualties of the 2026 Iran war.\n\nPart of the series: The Iran war, in numbers. This video reports figures only and does not endorse any party or candidate.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#iranwar #war #shorts",
-  "tags": "iran war,iran war casualties,human cost of war,iran war in numbers,middle east,",
-  "tt": "The cost no budget covers: more than 8,000 lives lost in the Iran war since 28 February. Sources and dates differ. #iranwar #war #news #middleeast #remembrance",
-  "playlist": "The Iran war, in numbers",
-  "yt": "mPm2oTsfp9I"
- },
- "Ep1": {
-  "date": "Nov 7, 2026",
-  "playlist": "Time does the work",
-  "title": "She saved for 10 years. He saved for 30. She ended up with more.",
-  "desc": "Maya saves $200 a month for 10 years, then stops. Leo saves the same $200 a month for 30 years. Maya puts in a third as much, and still ends up with more: $280,968 against $243,994 at 65. This episode explains why, and what it means for you: how compounding works, what waiting really costs, why small amounts and low fees matter, what happens in a crash, the employer match, and how much you need each month to reach $1 million by 65.\n\nChapters\n0:00 Two savers, one stops early\n0:50 The penny puzzle\n1:41 Deposits add, returns multiply\n2:27 The most expensive habit: waiting\n3:16 Small amounts, big numbers\n3:56 The rate matters: the rule of 72 and fees\n4:57 What if the market crashes?\n5:46 Free money: the employer match\n6:21 The million-dollar question\n7:10 Three things to take away\n\nAssumptions: a steady 7% a year, compounded monthly, before fees, tax and inflation, unless stated. The penny example is a thought experiment. Real returns vary, and markets fall as well as rise. Every figure is calculated, with the assumptions shown on screen. An illustration only, not financial advice.\n\nEach idea is also a 60-second Short on this channel, in the \"Time does the work\" playlist. New Shorts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#investing #compoundinterest #personalfinance #retirement #money",
-  "tags": "compound interest,investing for beginners,personal finance,start investing early,retirement savings,rule of 72,investment fees,employer match,how to invest,money,",
-  "problem": "0:01 Why does someone who saves $200 a month for 10 years end up with more than someone who saves for 30?",
-  "yt": "ialpYWc2Eak"
- },
- "Ep1Teaser": {
-  "date": "Nov 7, 2026",
-  "tt": "Waiting 10 years to start can cost you more than half: $200 a month at 7% grows to $524,963 from 25, but $243,994 from 35. From Episode 1, Time does the work, now on YouTube. Illustration only. #investing #compoundinterest #personalfinance #moneytips #saving"
- },
- "HouseMoney": {
-  "youtube": "tVTmwpTn6Io",
-  "youtube_url": "https://youtube.com/shorts/tVTmwpTn6Io",
-  "tiktok": "posted 2026-11-04 (under content review at post time)",
-  "published": "2026-11-04"
- },
- "Pappas": {
-  "youtube": "AReqyg8VSp0",
-  "tiktok": "posted 2026-11-04",
-  "instagram": "posted 2026-11-04",
-  "published": "2026-11-04"
- },
- "BlackGovs": {
-  "youtube": "WsU1QRgW9GQ",
-  "tiktok": "posted 2026-11-04 (under review at post time)",
-  "instagram": "posted 2026-11-04",
-  "published": "2026-11-04"
- },
- "Promises": {
-  "youtube": "XR12FbsAR2I",
-  "tiktok": "posted 2026-11-04 (under review at post time)",
-  "instagram": "posted 2026-11-04",
-  "published": "2026-11-04"
- },
- "Divided": {
-  "youtube": "yX8AWCLy7Vc",
-  "tiktok": "posted 2026-11-04",
-  "instagram": "posted 2026-11-04",
-  "published": "2026-11-04"
- },
- "Subs": {
-  "title": "5 subscriptions vs investing $75 a month for 20 years",
-  "youtube": "Coa_mvfJoek",
-  "youtube_scheduled": "Nov 8, 2026 19:00",
-  "tiktok_scheduled": "2026-11-08 19:00",
-  "instagram_scheduled": "17/11/2026 19:00",
-  "verified": "YT+TT+IG schedules confirmed 2026-11-04"
- },
- "CarLoan": {
-  "title": "$30,000 car loan: 3 vs 5 vs 7 years of interest",
-  "youtube": "ytObl4H6fT0",
-  "youtube_scheduled": "Nov 9, 2026 19:00",
-  "tiktok_scheduled": "2026-11-09 19:00",
-  "instagram_scheduled": "18/11/2026 19:00",
-  "verified": "YT+TT+IG schedules confirmed 2026-11-04"
- },
- "Mortgage100": {
-  "title": "What an extra $100 a month does to a $300,000 mortgage",
-  "youtube": "W3yF_9WeWd4",
-  "youtube_scheduled": "Nov 10, 2026 19:00",
-  "tiktok_scheduled": "2026-11-10 19:00",
-  "instagram_scheduled": "19/11/2026 19:00",
-  "verified": "YT+TT+IG schedules confirmed 2026-11-04"
- },
- "Raise": {
-  "title": "Invest your raise, not your lifestyle: $300 a month for 25 years",
-  "youtube": "yWkK9_VIBYk",
-  "youtube_scheduled": "Nov 11, 2026 19:00",
-  "tiktok_scheduled": "2026-11-11 19:00",
-  "instagram_scheduled": "20/11/2026 19:00",
-  "verified": "YT+TT+IG schedules confirmed 2026-11-04"
- },
- "Inflation": {
-  "title": "What $100 buys after 30 years of 3% inflation",
-  "youtube": "aTqM36x4-8Y",
-  "youtube_scheduled": "Nov 12, 2026 19:00",
-  "tiktok_scheduled": "2026-11-12 19:00",
-  "instagram_scheduled": "21/11/2026 19:00",
-  "verified": "YT+TT+IG schedules confirmed 2026-11-04"
- },
- "Rule4": {
-  "title": "The 4% rule: how much you need to retire",
-  "youtube": "sllFpX76dpM",
-  "youtube_scheduled": "Nov 13, 2026 19:00",
-  "tiktok_scheduled": "2026-11-13 19:00",
-  "instagram_scheduled": "22/11/2026 19:00",
-  "verified": "YT+TT+IG schedules confirmed 2026-11-04"
- },
- "Emergency": {
-  "title": "A $1,000 repair on a 22% credit card, paying $30 a month",
-  "youtube": "scheduled (ID not captured; see Studio)",
-  "youtube_scheduled": "Nov 14, 2026 19:00",
-  "tiktok_scheduled": "2026-11-14 19:00",
-  "instagram_scheduled": "23/11/2026 19:00",
-  "verified": "YT+TT+IG schedules confirmed 2026-11-04"
- },
- "Phone": {
-  "title": "A $1,500 phone at 20% over 24 months: the real cost",
-  "youtube": "RNty3VYZgZc",
-  "youtube_scheduled": "Nov 15, 2026 19:00",
-  "tiktok_scheduled": "2026-11-15 19:00",
-  "instagram_scheduled": "24/11/2026 19:00",
-  "verified": "YT+TT+IG confirmed 2026-11-05"
- },
- "PayFirst": {
-  "title": "Pay yourself first: 10% of $4,000 from 25 to 65",
-  "youtube": "dMtdcWlvHyI",
-  "youtube_scheduled": "Nov 16, 2026 19:00",
-  "tiktok_scheduled": "2026-11-16 19:00",
-  "instagram_scheduled": "25/11/2026 19:00",
-  "verified": "YT+TT+IG confirmed 2026-11-05"
- },
- "UsedCar": {
-  "title": "New $40,000 car vs used $25,000: invest the difference",
-  "youtube": "td3Cq1jRTPg",
-  "youtube_scheduled": "Nov 17, 2026 19:00",
-  "tiktok_scheduled": "2026-11-17 19:00",
-  "instagram_scheduled": "26/11/2026 19:00",
-  "verified": "YT+TT+IG confirmed 2026-11-05"
- },
- "EFund": {
-  "title": "How big should your emergency fund be?",
-  "youtube": "7kd8tC5k1js",
-  "youtube_scheduled": "Nov 18, 2026 19:00",
-  "tiktok_scheduled": "2026-11-18 19:00",
-  "instagram_scheduled": "27/11/2026 19:00",
-  "verified": "YT+TT+IG confirmed 2026-11-05"
- },
- "StudentLoan": {
-  "title": "An extra $50 a month on a $30,000 student loan",
-  "youtube": "DeWb36lM7L4",
-  "youtube_scheduled": "Nov 19, 2026 19:00",
-  "tiktok_scheduled": "2026-11-19 19:00",
-  "instagram_scheduled": "28/11/2026 19:00",
-  "verified": "YT+TT+IG confirmed 2026-11-05"
- },
- "HighYield": {
-  "title": "$10,000 in savings at 0.5% vs 4.5% for 10 years",
-  "youtube": "RadBJ2Lx-0c",
-  "youtube_scheduled": "Nov 20, 2026 19:00",
-  "tiktok_scheduled": "2026-11-20 19:00",
-  "instagram_scheduled": "29/11/2026 19:00",
-  "verified": "YT+TT+IG confirmed 2026-11-05"
- },
- "Budget": {
-  "title": "The 50/30/20 rule on $4,000 a month",
-  "youtube": "x9U9cjQqQvU",
-  "youtube_scheduled": "Nov 21, 2026 19:00",
-  "tiktok_scheduled": "2026-11-21 19:00",
-  "instagram_scheduled": "30/11/2026 19:00",
-  "verified": "YT+TT+IG confirmed 2026-11-05"
- },
- "Ep2": {
-  "title": "Interest works both ways: 19 years vs 4 on the same $5,000 debt (Episode 2)",
-  "youtube": "3yY9ZJOF6r8",
-  "youtube_scheduled": "Nov 21, 2026 19:00",
-  "playlist": "Debt, run through the numbers"
- },
- "Ep2Teaser": {
-  "tiktok_scheduled": "2026-11-21 20:00",
-  "instagram_scheduled": "01/12/2026 19:00"
- },
- "Avalanche": {
-  "title": "Avalanche vs snowball: which debt should you pay first?",
-  "youtube": "H_9YpCKXFo0",
-  "youtube_scheduled": "Nov 22, 2026 19:00",
-  "tiktok_scheduled": "2026-11-22 19:00"
- },
- "ZeroTrap": {
-  "title": "The 0% offer trap: $3,000 at $150 a month",
-  "youtube": "1ht6tyB2Lvg",
-  "youtube_scheduled": "Nov 23, 2026 19:00",
-  "tiktok_scheduled": "2026-11-23 19:00"
- },
- "StopPaying": {
-  "title": "Stop paying a $5,000 credit card: it's $14,872 in 5 years",
-  "youtube": "d357heD0Bh8",
-  "youtube_scheduled": "Nov 24, 2026 19:00",
-  "tiktok_scheduled": "2026-11-24 19:00"
- },
- "LumpSum": {
-  "title": "$10,000 invested once, never touched for 40 years",
-  "youtube": "glIh818KWbc",
-  "youtube_scheduled": "Nov 25, 2026 19:00",
-  "tiktok_scheduled": "2026-11-25 19:00"
- },
- "Holiday": {
-  "title": "$1,000 of holiday gifts on a 22% card: minimum vs $100 a month",
-  "youtube": "9aiLZCa5EVE",
-  "youtube_scheduled": "Nov 27, 2026 19:00",
-  "tiktok_scheduled": "2026-11-27 19:00"
- },
- "BlackFriday": {
-  "title": "Black Friday: 50% off isn't saving if it wasn't on your list",
-  "youtube": "aucHTIi4DKQ",
-  "youtube_scheduled": "Nov 26, 2026 19:00",
-  "tiktok_scheduled": "2026-11-26 19:00"
- },
- "RealRaise": {
-  "title": "A 2% raise with 4% inflation: $50,000 after 5 years",
-  "youtube": "HCCAHMUawCo",
-  "youtube_scheduled": "Nov 28, 2026 19:00",
-  "tiktok_scheduled": "2026-11-28 19:00"
- },
- "RateHikes": {
-  "youtube": "dfILJVxbQUE",
-  "youtube_scheduled": "Nov 17, 2026 12:00",
-  "tiktok_scheduled": "2026-11-17 12:00"
- },
- "BondExtra": {
-  "youtube": "UjEpmxtPz7o",
-  "youtube_scheduled": "Nov 18, 2026 12:00",
-  "tiktok_scheduled": "2026-11-18 12:00"
- },
- "PetrolRelief": {
-  "youtube": "yw-t6TY4bZk",
-  "youtube_scheduled": "Nov 12, 2026 12:00",
-  "tiktok_scheduled": "2026-11-12 12:00"
- },
- "TFSAMax": {
-  "youtube": "TO6ISxH6OCk",
-  "youtube_scheduled": "Nov 13, 2026 12:00",
-  "tiktok_scheduled": "2026-11-13 12:00"
- },
- "RARefund": {
-  "youtube": "cMJBAKF9vJ4",
-  "youtube_scheduled": "Nov 14, 2026 12:00",
-  "tiktok_scheduled": "2026-11-14 12:00"
- },
- "TwoPot": {
-  "youtube": "fcB8oLemEao",
-  "youtube_scheduled": "Nov 15, 2026 12:00",
-  "tiktok_scheduled": "2026-11-15 12:00"
- },
- "TaxBracket": {
-  "youtube": "wn7CtmsiR5Y",
-  "youtube_scheduled": "Nov 16, 2026 12:00",
-  "tiktok_scheduled": "2026-11-16 12:00"
- },
- "PetrolWar": {
-  "youtube": "jlRBgch0sMs",
-  "youtube_scheduled": "Nov 10, 2026 12:00",
-  "tiktok_scheduled": "2026-11-10 12:00",
-  "playlist": "Uncomfortable maths"
- },
- "HouseAsset": {
-  "youtube": "bFVrhGk5vjk",
-  "youtube_scheduled": "Nov 29, 2026 19:00",
-  "tiktok_scheduled": "2026-11-29 19:00",
-  "playlist": "Uncomfortable maths"
- },
- "OnePercent": {
-  "youtube": "aOd6VUWW_14",
-  "youtube_scheduled": "Nov 30, 2026 19:00",
-  "tiktok_scheduled": "2026-11-30 19:00",
-  "playlist": "Uncomfortable maths"
- },
- "Lotto": {
-  "youtube": "rlGQj0KcLO4",
-  "youtube_scheduled": "Dec 1, 2026 19:00",
-  "tiktok_scheduled": "2026-12-01 19:00",
-  "playlist": "Uncomfortable maths"
- },
- "BankFees": {
-  "youtube": "2WILSWiCGLc",
-  "youtube_scheduled": "Dec 2, 2026 19:00",
-  "tiktok_scheduled": "2026-12-02 19:00",
-  "playlist": "Uncomfortable maths"
- },
- "TwoPotNation": {
-  "youtube": "fpr5J5B5h74",
-  "youtube_scheduled": "Dec 3, 2026 19:00",
-  "tiktok_scheduled": "2026-12-03 19:00",
-  "playlist": "Uncomfortable maths"
- },
- "Wedding": {
-  "youtube": "37HJvHM2YtM",
-  "youtube_scheduled": "Dec 4, 2026 19:00",
-  "playlist": "Uncomfortable maths",
-  "tiktok_scheduled": "2026-12-04 19:00",
-  "instagram_scheduled": "2026-12-04 12:00"
- },
- "CarFinance": {
-  "youtube": "YJn4mmVkYis",
-  "youtube_scheduled": "Dec 5, 2026 19:00",
-  "playlist": "Uncomfortable maths",
-  "tiktok_scheduled": "2026-12-05 19:00",
-  "instagram_scheduled": "2026-12-05 12:00"
- },
- "MillionRetire": {
-  "youtube": "taA2lgnQ-OM",
-  "youtube_scheduled": "Dec 6, 2026 19:00",
-  "playlist": "Money in South Africa (Rand)",
-  "tiktok_scheduled": "2026-12-06 19:00",
-  "instagram_scheduled": "2026-12-06 12:00"
- },
- "DeliveryFees": {
-  "youtube": "IUlnsrmn0O0",
-  "youtube_scheduled": "Dec 7, 2026 19:00",
-  "playlist": "Uncomfortable maths",
-  "tiktok_scheduled": "2026-12-07 19:00",
-  "instagram_scheduled": "2026-12-07 12:00"
- },
- "Mattress": {
-  "youtube": "-HGJrwbQ7TA",
-  "youtube_scheduled": "Dec 8, 2026 19:00",
-  "playlist": "Uncomfortable maths",
-  "tiktok_scheduled": "2026-12-08 19:00",
-  "instagram_scheduled": "2026-12-08 12:00"
- },
- "FranceBoks": {
-  "youtube": "DeZGp6WLeVw",
-  "youtube_published": "2026-11-15",
-  "tiktok_published": "2026-11-15",
-  "instagram_published": "2026-11-15 07:15",
-  "playlist": "Sport, by the numbers"
- },
- "WalesAB": {
-  "youtube": "S_cKPc7xM04",
-  "youtube_published": "2026-11-15",
-  "tiktok_published": "2026-11-15",
-  "instagram_published": "2026-11-15 07:16",
-  "playlist": "Sport, by the numbers"
- },
- "PenaltyTry": {
-  "youtube": "I9pfPwT1cIE",
-  "youtube_published": "2026-11-15",
-  "tiktok_published": "2026-11-15",
-  "instagram_published": "2026-11-15 07:42",
-  "playlist": "Sport, by the numbers",
-  "format": "tactic board pilot (board.tsx template)",
-  "note": "source corrected 2026-11-15 (Yahoo Sports contradicts Planet Rugby on cover) via disputed-dot styling in board.tsx; penaltyTry.ts updated, NOT re-rendered/re-published per owner instruction to leave the live post as-is and fix going forward only. See research/batch10-sources.md."
- },
- "ArendseOffside": {
-  "youtube": "i2W24zsSHq4",
-  "youtube_published": "2026-11-15",
-  "tiktok_published": "2026-11-15",
-  "instagram_published": "2026-11-15 15:32",
-  "playlist": "Sport, by the numbers",
-  "format": "tactic board #2 (board.tsx template)",
-  "sources": "Irish Times + RugbyPass (World Rugby Law 18); fan TikTok's unverified '10cm' margin deliberately excluded"
- },
- "KnockOnCall": {
-  "youtube": "5rKV4RZpOEk",
-  "youtube_published": "2026-11-15",
-  "tiktok_published": "2026-11-15",
-  "instagram_published": "2026-11-15",
-  "playlist": "Sport, by the numbers",
-  "format": "tactic board #3 (board.tsx template)",
-  "sources": "Single-sourced to 1News (15 Nov 2026) on the final-minutes knock-on reversal; no second outlet found, flagged on-screen and in research/batch10-sources.md as one outlet's account, not cross-verified fact"
- }
+  "Daily": {
+    "date": "Oct 28, 2026",
+    "playlist": "Time does the work",
+    "title": "$1, $10 or $20 a day for 40 years",
+    "desc": "Three savers invest $1, $10 and $20 a day for 40 years. They put in $14,600, $146,000 and $292,000. At the end: $79,838, $798,381 and $1,596,761. Assumes a steady 7% yearly return, compounded monthly, before fees, tax and inflation.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#investing #compoundinterest #saving #personalfinance #shorts",
+    "tags": "personal finance,money,investing,compound interest,money tips,saving money,small habits,",
+    "problem": "0:01 What do $1, $10 and $20 a day become if invested for 40 years at 7%?",
+    "tt": "$20 a day for 40 years becomes $1.6 million. The maths of small amounts and long time. Illustration only, 7% a year, not financial advice. #investing #compoundinterest #personalfinance #moneytips #savingmoney",
+    "yt": "YokDrJEOogs"
+  },
+  "Rate": {
+    "date": "Oct 30, 2026",
+    "playlist": "Time does the work",
+    "title": "Why 1% is worth $259,858",
+    "desc": "Priya and Tom both invest $300 a month for 40 years and put in $144,000 each. Priya earns 7% a year and ends with $787,444. Tom earns 8% and ends with $1,047,302: a gap of $259,858 from one percentage point. That is why fees matter. Assumes steady yearly returns, compounded monthly, before fees, tax and inflation.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#investing #compoundinterest #fees #personalfinance #shorts",
+    "tags": "personal finance,money,investing,compound interest,investment fees,money tips,index funds,",
+    "problem": "0:01 How much difference does earning 8% instead of 7% make on $300 a month over 40 years?",
+    "tt": "7% vs 8% on $300 a month for 40 years: a $259,858 difference. Why fees matter. Illustration only, not financial advice. #investing #compoundinterest #personalfinance #moneytips #fees",
+    "yt": "wKLCqXYP2kg"
+  },
+  "Penny": {
+    "date": "Nov 2, 2026",
+    "playlist": "Time does the work",
+    "title": "$1 million or a penny doubled for 30 days?",
+    "desc": "Jordan takes $1,000,000 today. Riley takes one cent that doubles every day for 30 days. On day 20 the penny is worth just $5,242.88. It passes the million on day 28, and on day 30 it is worth $5,368,709.12. Half of it arrives on the last day. A thought experiment: no real investment doubles daily, but compounding has the same shape.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#compoundinterest #money #maths #personalfinance #shorts",
+    "tags": "personal finance,money,compound interest,penny doubled,exponential growth,money tips,maths,",
+    "problem": "0:01 Which is worth more after 30 days: $1 million today, or a penny that doubles every day?",
+    "tt": "$1 million today, or a penny doubled every day for 30 days? The penny wins with $5.37 million. Thought experiment, not financial advice. #compoundinterest #money #maths #personalfinance #moneytips",
+    "yt": "-nydbs2vNsY"
+  },
+  "Million": {
+    "date": "Nov 4, 2026",
+    "playlist": "Time does the work",
+    "title": "How much a month for $1M by 65?",
+    "desc": "To have $1,000,000 by 65, Ana starts at 25 and needs $381 a month. Ben starts at 35 and needs $820. Cleo starts at 45 and needs $1,920. Ana puts in $182,880, Cleo $460,800. Same million, different effort. Assumes a steady 7% yearly return, compounded monthly, before fees, tax and inflation.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#investing #retirement #millionaire #personalfinance #shorts",
+    "tags": "personal finance,money,investing,retirement,million dollars,start investing early,compound interest,",
+    "problem": "0:01 How much must you invest each month to have $1 million by 65 if you start at 25, 35 or 45?",
+    "tt": "$1 million by 65: $381 a month from 25, $820 from 35, $1,920 from 45. Illustration only, 7% a year, not financial advice. #investing #retirement #personalfinance #moneytips #compoundinterest",
+    "yt": "-nBnKWe0vsA"
+  },
+  "StoreCard": {
+    "date": "Nov 6, 2026",
+    "playlist": "Debt, run through the numbers",
+    "title": "$1,000 on a store card: the minimum trap",
+    "desc": "Sam owes $1,000 on a store card at 29% and pays only the minimum: 83 months and $1,203 in interest, more than the purchase itself. Alex pays a fixed $50 a month: clear in 28 months with $383 of interest. Assumes 29% APR, no new spending, minimum = interest + 1% of balance (at least $25). Card terms vary.\n\nEvery figure is calculated, with the assumptions shown on screen. Illustration only. Not financial advice.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#debt #creditcard #minimumpayment #personalfinance #shorts",
+    "tags": "personal finance,money,debt,store card,credit card interest,minimum payment,debt free,",
+    "problem": "0:01 How long does it take to clear $1,000 on a 29% store card paying only the minimum, compared with $50 a month?",
+    "tt": "$1,000 on a 29% store card, paying the minimum: 7 years and $1,203 in interest. Pay $50 a month instead and it is gone in 28 months. Illustration only. #debt #creditcard #personalfinance #moneytips #debtfree",
+    "yt": "sASrJ5dsDTA"
+  },
+  "EarlyStart": {
+    "yt": "5pxCHYbUnQE",
+    "date": "Oct 26, 2026",
+    "title": "10 years of saving beat 30 years",
+    "tt": "Maya saves $200 a month for 10 years. Leo saves for 30. Maya ends up with more. Illustration only, 7% a year, not financial advice. #investing #compoundinterest #personalfinance #moneytips #saving"
+  },
+  "Coffee": {
+    "date": "now",
+    "yt": "edMIPISxsTM",
+    "tt": "$5 a day on coffee for 30 years: $54,750 spent. Invest it instead and it grows to about $185,000. Illustration only, 7% a year, not financial advice. #personalfinance #moneytips #investing #compoundinterest #saving"
+  },
+  "CreditCard": {
+    "date": "Oct 19, 2026",
+    "yt": "SiXG8OWJAcw",
+    "tt": "Pay the minimum on $5,000 at 22% and it takes over 19 years. Pay $200 a month and it is gone in under 3. Illustration only, not financial advice. #debt #creditcard #personalfinance #moneytips #debtfree"
+  },
+  "Fees": {
+    "date": "Oct 21, 2026",
+    "yt": "huMmZK0oA8c",
+    "tt": "A 2% fee sounds tiny. On $300 a month for 30 years it cost $98,762. Illustration only, not financial advice. #investing #fees #personalfinance #moneytips #compoundinterest"
+  },
+  "RuleOf72": {
+    "date": "Oct 23, 2026",
+    "yt": "owgeo_qHz3E",
+    "tt": "How fast does your money double? Divide 72 by your yearly return. The Rule of 72, in 60 seconds. Illustration only, not financial advice. #investing #ruleof72 #personalfinance #moneytips #compoundinterest"
+  },
+  "SwingGas": {
+    "date": "Oct 24, 2026",
+    "playlist": "The Iran war, in numbers",
+    "title": "Gas prices in the 13 states that could decide the Senate",
+    "yt": "MVKQd21t1Cw",
+    "tt": "Gas in the 13 states that could decide the Senate: up more than $1 a gallon in 11 of them since the Iran war began. AAA prices, 20-21 Oct. Costs only, no sides taken. #gasprices #midterms #iranwar #economy #costofliving"
+  },
+  "WarVote": {
+    "date": "Oct 25, 2026",
+    "title": "49 to 50: the vote on ending the Iran war",
+    "desc": "On 24 September 2026 the Senate voted 49 to 50 on a resolution directing an end to U.S. involvement in the Iran war. One senator did not vote. It was the 14th Senate vote on Iran war powers since the war began on 28 February; 13 have failed. The one that passed, in June (Senate 50-48, House 215-208), was a concurrent resolution that never goes to the president, and experts called it largely symbolic. In July, the House passed a new resolution 214-208; the Senate rejected it 47-49.\n\nSources: ABC News (24 Sep 2026), Al Jazeera (24 Jun and 23 Jul 2026), Carolina Political Review (15 Oct 2026).\n\nPart of the series: The Iran war, in numbers. This video reports figures only and does not endorse any party or candidate.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#iranwar #congress #senate #midterms #shorts",
+    "tags": "iran war,war powers resolution,senate vote,congress,midterms 2026,us politics,iran war in numbers,",
+    "tt": "The Senate vote on ending the Iran war: 49 to 50. One senator didn't vote. 14 votes, 13 failed. Figures only, no sides taken. #iranwar #senate #congress #midterms #politics",
+    "playlist": "The Iran war, in numbers",
+    "yt": "vdrj4a9XL1Y"
+  },
+  "WarBill": {
+    "date": "Oct 27, 2026",
+    "title": "The Iran war bill: $320 per household so far",
+    "desc": "By the Pentagon's own count, the Iran war cost the U.S. military $43.6 billion from 28 February to 3 September 2026: about $230 million a day, or about $320 per U.S. household. In June the White House requested $67.1 billion more for the Pentagon (about $500 per household). In July the House passed a budget plan with $73 billion for the Pentagon and national security, 216-214. The Congressional Budget Office estimates $2-3 billion for every further month. Figures overlap and are not additive.\n\nSources: Roll Call (18 Sep 2026), Aviation Week (24 Jun 2026), PBS NewsHour (22 Jul 2026), U.S. Census/FRED households (2025).\n\nPart of the series: The Iran war, in numbers. This video reports figures only and does not endorse any party or candidate.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#iranwar #pentagon #taxes #economy #shorts",
+    "tags": "iran war,iran war cost,pentagon budget,war spending,taxpayers,midterms 2026,iran war in numbers,",
+    "tt": "The Iran war has cost the Pentagon $43.6bn so far: about $230m a day, or $320 per U.S. household. And $67bn more is requested. Figures only. #iranwar #pentagon #taxes #economy #costofliving",
+    "playlist": "The Iran war, in numbers",
+    "yt": "KBMg8iSeYqo"
+  },
+  "AfterVote": {
+    "date": "Oct 29, 2026",
+    "title": "Gas prices after the midterms: the forecast",
+    "desc": "What the U.S. Energy Information Administration expects after 3 November. Brent oil closed at $72.48 before the war (27 Feb); EIA forecasts an average of $105 for October-December 2026. Regular gas was $2.98 before the war and $4.26 today (AAA, 21 Oct); EIA forecasts $3.56 for 2027. Diesel is $6.32 today, forecast about $4.50 in 2027, vs $3.76 before the war. Homes heating with oil are forecast to pay about 21% more this winter.\n\nSources: EIA Short-Term Energy Outlook and Winter Fuels Outlook (6 Oct 2026), AAA (21 Oct 2026). Forecasts can change.\n\nPart of the series: The Iran war, in numbers. This video reports figures only and does not endorse any party or candidate.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#gasprices #oil #iranwar #economy #shorts",
+    "tags": "gas prices,gas price forecast,oil prices,diesel,heating oil,iran war,midterms 2026,",
+    "tt": "After the midterms, the fuel bill keeps coming. EIA forecasts gas at $3.56 in 2027, still above $2.98 before the war. Figures only. #gasprices #oil #iranwar #economy #costofliving",
+    "playlist": "The Iran war, in numbers",
+    "yt": "wFa-0huDNNA"
+  },
+  "HumanCost": {
+    "date": "Oct 31, 2026",
+    "title": "The cost of the Iran war no budget covers",
+    "desc": "The human cost of the 2026 Iran war, in numbers. The Pentagon reports 21 U.S. service members killed and 865 wounded (October 2026). In Iran, the rights group HRANA has counted 3,684 deaths, more than 1,700 of them civilians and at least 254 children. Lebanon's health ministry reports 4,383 killed; Israel, 72; Gulf states, around 50. Together, more than 8,000 people. Sources and dates differ.\n\nSources: Pentagon via The Washington Post (Oct 2026), HRANA, Lebanese Health Ministry, compiled in Wikipedia's Casualties of the 2026 Iran war.\n\nPart of the series: The Iran war, in numbers. This video reports figures only and does not endorse any party or candidate.\n\nNew money charts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#iranwar #war #shorts",
+    "tags": "iran war,iran war casualties,human cost of war,iran war in numbers,middle east,",
+    "tt": "The cost no budget covers: more than 8,000 lives lost in the Iran war since 28 February. Sources and dates differ. #iranwar #war #news #middleeast #remembrance",
+    "playlist": "The Iran war, in numbers",
+    "yt": "mPm2oTsfp9I"
+  },
+  "Ep1": {
+    "date": "Nov 7, 2026",
+    "playlist": "Time does the work",
+    "title": "She saved for 10 years. He saved for 30. She ended up with more.",
+    "desc": "Maya saves $200 a month for 10 years, then stops. Leo saves the same $200 a month for 30 years. Maya puts in a third as much, and still ends up with more: $280,968 against $243,994 at 65. This episode explains why, and what it means for you: how compounding works, what waiting really costs, why small amounts and low fees matter, what happens in a crash, the employer match, and how much you need each month to reach $1 million by 65.\n\nChapters\n0:00 Two savers, one stops early\n0:50 The penny puzzle\n1:41 Deposits add, returns multiply\n2:27 The most expensive habit: waiting\n3:16 Small amounts, big numbers\n3:56 The rate matters: the rule of 72 and fees\n4:57 What if the market crashes?\n5:46 Free money: the employer match\n6:21 The million-dollar question\n7:10 Three things to take away\n\nAssumptions: a steady 7% a year, compounded monthly, before fees, tax and inflation, unless stated. The penny example is a thought experiment. Real returns vary, and markets fall as well as rise. Every figure is calculated, with the assumptions shown on screen. An illustration only, not financial advice.\n\nEach idea is also a 60-second Short on this channel, in the \"Time does the work\" playlist. New Shorts every Monday, Wednesday and Friday: subscribe to @thesumofit\n\n#investing #compoundinterest #personalfinance #retirement #money",
+    "tags": "compound interest,investing for beginners,personal finance,start investing early,retirement savings,rule of 72,investment fees,employer match,how to invest,money,",
+    "problem": "0:01 Why does someone who saves $200 a month for 10 years end up with more than someone who saves for 30?",
+    "yt": "ialpYWc2Eak"
+  },
+  "Ep1Teaser": {
+    "date": "Nov 7, 2026",
+    "tt": "Waiting 10 years to start can cost you more than half: $200 a month at 7% grows to $524,963 from 25, but $243,994 from 35. From Episode 1, Time does the work, now on YouTube. Illustration only. #investing #compoundinterest #personalfinance #moneytips #saving"
+  },
+  "HouseMoney": {
+    "youtube": "tVTmwpTn6Io",
+    "youtube_url": "https://youtube.com/shorts/tVTmwpTn6Io",
+    "tiktok": "posted 2026-11-04 (under content review at post time)",
+    "published": "2026-11-04"
+  },
+  "Pappas": {
+    "youtube": "AReqyg8VSp0",
+    "tiktok": "posted 2026-11-04",
+    "instagram": "posted 2026-11-04",
+    "published": "2026-11-04"
+  },
+  "BlackGovs": {
+    "youtube": "WsU1QRgW9GQ",
+    "tiktok": "posted 2026-11-04 (under review at post time)",
+    "instagram": "posted 2026-11-04",
+    "published": "2026-11-04"
+  },
+  "Promises": {
+    "youtube": "XR12FbsAR2I",
+    "tiktok": "posted 2026-11-04 (under review at post time)",
+    "instagram": "posted 2026-11-04",
+    "published": "2026-11-04"
+  },
+  "Divided": {
+    "youtube": "yX8AWCLy7Vc",
+    "tiktok": "posted 2026-11-04",
+    "instagram": "posted 2026-11-04",
+    "published": "2026-11-04"
+  },
+  "Subs": {
+    "title": "5 subscriptions vs investing $75 a month for 20 years",
+    "youtube": "Coa_mvfJoek",
+    "youtube_scheduled": "Nov 8, 2026 19:00",
+    "tiktok_scheduled": "2026-11-08 19:00",
+    "instagram_scheduled": "17/11/2026 19:00",
+    "verified": "YT+TT+IG schedules confirmed 2026-11-04"
+  },
+  "CarLoan": {
+    "title": "$30,000 car loan: 3 vs 5 vs 7 years of interest",
+    "youtube": "ytObl4H6fT0",
+    "youtube_scheduled": "Nov 9, 2026 19:00",
+    "tiktok_scheduled": "2026-11-09 19:00",
+    "instagram_scheduled": "18/11/2026 19:00",
+    "verified": "YT+TT+IG schedules confirmed 2026-11-04"
+  },
+  "Mortgage100": {
+    "title": "What an extra $100 a month does to a $300,000 mortgage",
+    "youtube": "W3yF_9WeWd4",
+    "youtube_scheduled": "Nov 10, 2026 19:00",
+    "tiktok_scheduled": "2026-11-10 19:00",
+    "instagram_scheduled": "19/11/2026 19:00",
+    "verified": "YT+TT+IG schedules confirmed 2026-11-04"
+  },
+  "Raise": {
+    "title": "Invest your raise, not your lifestyle: $300 a month for 25 years",
+    "youtube": "yWkK9_VIBYk",
+    "youtube_scheduled": "Nov 11, 2026 19:00",
+    "tiktok_scheduled": "2026-11-11 19:00",
+    "instagram_scheduled": "20/11/2026 19:00",
+    "verified": "YT+TT+IG schedules confirmed 2026-11-04"
+  },
+  "Inflation": {
+    "title": "What $100 buys after 30 years of 3% inflation",
+    "youtube": "aTqM36x4-8Y",
+    "youtube_scheduled": "Nov 12, 2026 19:00",
+    "tiktok_scheduled": "2026-11-12 19:00",
+    "instagram_scheduled": "21/11/2026 19:00",
+    "verified": "YT+TT+IG schedules confirmed 2026-11-04"
+  },
+  "Rule4": {
+    "title": "The 4% rule: how much you need to retire",
+    "youtube": "sllFpX76dpM",
+    "youtube_scheduled": "Nov 13, 2026 19:00",
+    "tiktok_scheduled": "2026-11-13 19:00",
+    "instagram_scheduled": "22/11/2026 19:00",
+    "verified": "YT+TT+IG schedules confirmed 2026-11-04"
+  },
+  "Emergency": {
+    "title": "A $1,000 repair on a 22% credit card, paying $30 a month",
+    "youtube": "scheduled (ID not captured; see Studio)",
+    "youtube_scheduled": "Nov 14, 2026 19:00",
+    "tiktok_scheduled": "2026-11-14 19:00",
+    "instagram_scheduled": "23/11/2026 19:00",
+    "verified": "YT+TT+IG schedules confirmed 2026-11-04"
+  },
+  "Phone": {
+    "title": "A $1,500 phone at 20% over 24 months: the real cost",
+    "youtube": "RNty3VYZgZc",
+    "youtube_scheduled": "Nov 15, 2026 19:00",
+    "tiktok_scheduled": "2026-11-15 19:00",
+    "instagram_scheduled": "24/11/2026 19:00",
+    "verified": "YT+TT+IG confirmed 2026-11-05"
+  },
+  "PayFirst": {
+    "title": "Pay yourself first: 10% of $4,000 from 25 to 65",
+    "youtube": "dMtdcWlvHyI",
+    "youtube_scheduled": "Nov 16, 2026 19:00",
+    "tiktok_scheduled": "2026-11-16 19:00",
+    "instagram_scheduled": "25/11/2026 19:00",
+    "verified": "YT+TT+IG confirmed 2026-11-05"
+  },
+  "UsedCar": {
+    "title": "New $40,000 car vs used $25,000: invest the difference",
+    "youtube": "td3Cq1jRTPg",
+    "youtube_scheduled": "Nov 17, 2026 19:00",
+    "tiktok_scheduled": "2026-11-17 19:00",
+    "instagram_scheduled": "26/11/2026 19:00",
+    "verified": "YT+TT+IG confirmed 2026-11-05"
+  },
+  "EFund": {
+    "title": "How big should your emergency fund be?",
+    "youtube": "7kd8tC5k1js",
+    "youtube_scheduled": "Nov 18, 2026 19:00",
+    "tiktok_scheduled": "2026-11-18 19:00",
+    "instagram_scheduled": "27/11/2026 19:00",
+    "verified": "YT+TT+IG confirmed 2026-11-05"
+  },
+  "StudentLoan": {
+    "title": "An extra $50 a month on a $30,000 student loan",
+    "youtube": "DeWb36lM7L4",
+    "youtube_scheduled": "Nov 19, 2026 19:00",
+    "tiktok_scheduled": "2026-11-19 19:00",
+    "instagram_scheduled": "28/11/2026 19:00",
+    "verified": "YT+TT+IG confirmed 2026-11-05"
+  },
+  "HighYield": {
+    "title": "$10,000 in savings at 0.5% vs 4.5% for 10 years",
+    "youtube": "RadBJ2Lx-0c",
+    "youtube_scheduled": "Nov 20, 2026 19:00",
+    "tiktok_scheduled": "2026-11-20 19:00",
+    "instagram_scheduled": "29/11/2026 19:00",
+    "verified": "YT+TT+IG confirmed 2026-11-05"
+  },
+  "Budget": {
+    "title": "The 50/30/20 rule on $4,000 a month",
+    "youtube": "x9U9cjQqQvU",
+    "youtube_scheduled": "Nov 21, 2026 19:00",
+    "tiktok_scheduled": "2026-11-21 19:00",
+    "instagram_scheduled": "30/11/2026 19:00",
+    "verified": "YT+TT+IG confirmed 2026-11-05"
+  },
+  "Ep2": {
+    "title": "Interest works both ways: 19 years vs 4 on the same $5,000 debt (Episode 2)",
+    "youtube": "3yY9ZJOF6r8",
+    "youtube_scheduled": "Nov 21, 2026 19:00",
+    "playlist": "Debt, run through the numbers"
+  },
+  "Ep2Teaser": {
+    "tiktok_scheduled": "2026-11-21 20:00",
+    "instagram_scheduled": "01/12/2026 19:00"
+  },
+  "Avalanche": {
+    "title": "Avalanche vs snowball: which debt should you pay first?",
+    "youtube": "H_9YpCKXFo0",
+    "youtube_scheduled": "Nov 22, 2026 19:00",
+    "tiktok_scheduled": "2026-11-22 19:00"
+  },
+  "ZeroTrap": {
+    "title": "The 0% offer trap: $3,000 at $150 a month",
+    "youtube": "1ht6tyB2Lvg",
+    "youtube_scheduled": "Nov 23, 2026 19:00",
+    "tiktok_scheduled": "2026-11-23 19:00"
+  },
+  "StopPaying": {
+    "title": "Stop paying a $5,000 credit card: it's $14,872 in 5 years",
+    "youtube": "d357heD0Bh8",
+    "youtube_scheduled": "Nov 24, 2026 19:00",
+    "tiktok_scheduled": "2026-11-24 19:00"
+  },
+  "LumpSum": {
+    "title": "$10,000 invested once, never touched for 40 years",
+    "youtube": "glIh818KWbc",
+    "youtube_scheduled": "Nov 25, 2026 19:00",
+    "tiktok_scheduled": "2026-11-25 19:00"
+  },
+  "Holiday": {
+    "title": "$1,000 of holiday gifts on a 22% card: minimum vs $100 a month",
+    "youtube": "9aiLZCa5EVE",
+    "youtube_scheduled": "Nov 27, 2026 19:00",
+    "tiktok_scheduled": "2026-11-27 19:00"
+  },
+  "BlackFriday": {
+    "title": "Black Friday: 50% off isn't saving if it wasn't on your list",
+    "youtube": "aucHTIi4DKQ",
+    "youtube_scheduled": "Nov 26, 2026 19:00",
+    "tiktok_scheduled": "2026-11-26 19:00"
+  },
+  "RealRaise": {
+    "title": "A 2% raise with 4% inflation: $50,000 after 5 years",
+    "youtube": "HCCAHMUawCo",
+    "youtube_scheduled": "Nov 28, 2026 19:00",
+    "tiktok_scheduled": "2026-11-28 19:00"
+  },
+  "RateHikes": {
+    "youtube": "dfILJVxbQUE",
+    "youtube_scheduled": "Nov 17, 2026 12:00",
+    "tiktok_scheduled": "2026-11-17 12:00"
+  },
+  "BondExtra": {
+    "youtube": "UjEpmxtPz7o",
+    "youtube_scheduled": "Nov 18, 2026 12:00",
+    "tiktok_scheduled": "2026-11-18 12:00"
+  },
+  "PetrolRelief": {
+    "youtube": "yw-t6TY4bZk",
+    "youtube_scheduled": "Nov 12, 2026 12:00",
+    "tiktok_scheduled": "2026-11-12 12:00"
+  },
+  "TFSAMax": {
+    "youtube": "TO6ISxH6OCk",
+    "youtube_scheduled": "Nov 13, 2026 12:00",
+    "tiktok_scheduled": "2026-11-13 12:00"
+  },
+  "RARefund": {
+    "youtube": "cMJBAKF9vJ4",
+    "youtube_scheduled": "Nov 14, 2026 12:00",
+    "tiktok_scheduled": "2026-11-14 12:00"
+  },
+  "TwoPot": {
+    "youtube": "fcB8oLemEao",
+    "youtube_scheduled": "Nov 15, 2026 12:00",
+    "tiktok_scheduled": "2026-11-15 12:00"
+  },
+  "TaxBracket": {
+    "youtube": "wn7CtmsiR5Y",
+    "youtube_scheduled": "Nov 16, 2026 12:00",
+    "tiktok_scheduled": "2026-11-16 12:00"
+  },
+  "PetrolWar": {
+    "youtube": "jlRBgch0sMs",
+    "youtube_scheduled": "Nov 10, 2026 12:00",
+    "tiktok_scheduled": "2026-11-10 12:00",
+    "playlist": "Uncomfortable maths"
+  },
+  "HouseAsset": {
+    "youtube": "bFVrhGk5vjk",
+    "youtube_scheduled": "Nov 29, 2026 19:00",
+    "tiktok_scheduled": "2026-11-29 19:00",
+    "playlist": "Uncomfortable maths"
+  },
+  "OnePercent": {
+    "youtube": "aOd6VUWW_14",
+    "youtube_scheduled": "Nov 30, 2026 19:00",
+    "tiktok_scheduled": "2026-11-30 19:00",
+    "playlist": "Uncomfortable maths"
+  },
+  "Lotto": {
+    "youtube": "rlGQj0KcLO4",
+    "youtube_scheduled": "Dec 1, 2026 19:00",
+    "tiktok_scheduled": "2026-12-01 19:00",
+    "playlist": "Uncomfortable maths"
+  },
+  "BankFees": {
+    "youtube": "2WILSWiCGLc",
+    "youtube_scheduled": "Dec 2, 2026 19:00",
+    "tiktok_scheduled": "2026-12-02 19:00",
+    "playlist": "Uncomfortable maths"
+  },
+  "TwoPotNation": {
+    "youtube": "fpr5J5B5h74",
+    "youtube_scheduled": "Dec 3, 2026 19:00",
+    "tiktok_scheduled": "2026-12-03 19:00",
+    "playlist": "Uncomfortable maths"
+  },
+  "Wedding": {
+    "youtube": "37HJvHM2YtM",
+    "youtube_scheduled": "Dec 4, 2026 19:00",
+    "playlist": "Uncomfortable maths",
+    "tiktok_scheduled": "2026-12-04 19:00",
+    "instagram_scheduled": "2026-12-04 12:00"
+  },
+  "CarFinance": {
+    "youtube": "YJn4mmVkYis",
+    "youtube_scheduled": "Dec 5, 2026 19:00",
+    "playlist": "Uncomfortable maths",
+    "tiktok_scheduled": "2026-12-05 19:00",
+    "instagram_scheduled": "2026-12-05 12:00"
+  },
+  "MillionRetire": {
+    "youtube": "taA2lgnQ-OM",
+    "youtube_scheduled": "Dec 6, 2026 19:00",
+    "playlist": "Money in South Africa (Rand)",
+    "tiktok_scheduled": "2026-12-06 19:00",
+    "instagram_scheduled": "2026-12-06 12:00"
+  },
+  "DeliveryFees": {
+    "youtube": "IUlnsrmn0O0",
+    "youtube_scheduled": "Dec 7, 2026 19:00",
+    "playlist": "Uncomfortable maths",
+    "tiktok_scheduled": "2026-12-07 19:00",
+    "instagram_scheduled": "2026-12-07 12:00"
+  },
+  "Mattress": {
+    "youtube": "-HGJrwbQ7TA",
+    "youtube_scheduled": "Dec 8, 2026 19:00",
+    "playlist": "Uncomfortable maths",
+    "tiktok_scheduled": "2026-12-08 19:00",
+    "instagram_scheduled": "2026-12-08 12:00"
+  },
+  "FranceBoks": {
+    "youtube": "DeZGp6WLeVw",
+    "youtube_published": "2026-11-15",
+    "tiktok_published": "2026-11-15",
+    "instagram_published": "2026-11-15 07:15",
+    "playlist": "Sport, by the numbers"
+  },
+  "WalesAB": {
+    "youtube": "S_cKPc7xM04",
+    "youtube_published": "2026-11-15",
+    "tiktok_published": "2026-11-15",
+    "instagram_published": "2026-11-15 07:16",
+    "playlist": "Sport, by the numbers"
+  },
+  "PenaltyTry": {
+    "youtube": "I9pfPwT1cIE",
+    "youtube_published": "2026-11-15",
+    "tiktok_published": "2026-11-15",
+    "instagram_published": "2026-11-15 07:42",
+    "playlist": "Sport, by the numbers",
+    "format": "tactic board pilot (board.tsx template)",
+    "note": "source corrected 2026-11-15 (Yahoo Sports contradicts Planet Rugby on cover) via disputed-dot styling in board.tsx; penaltyTry.ts updated, NOT re-rendered/re-published per owner instruction to leave the live post as-is and fix going forward only. See research/batch10-sources.md."
+  },
+  "ArendseOffside": {
+    "youtube": "i2W24zsSHq4",
+    "youtube_published": "2026-11-15",
+    "tiktok_published": "2026-11-15",
+    "instagram_published": "2026-11-15 15:32",
+    "playlist": "Sport, by the numbers",
+    "format": "tactic board #2 (board.tsx template)",
+    "sources": "Irish Times + RugbyPass (World Rugby Law 18); fan TikTok's unverified '10cm' margin deliberately excluded"
+  },
+  "KnockOnCall": {
+    "youtube": "5rKV4RZpOEk",
+    "youtube_published": "2026-11-15",
+    "tiktok_published": "2026-11-15",
+    "instagram_published": "2026-11-15",
+    "playlist": "Sport, by the numbers",
+    "format": "tactic board #3 (board.tsx template)",
+    "sources": "Single-sourced to 1News (15 Nov 2026) on the final-minutes knock-on reversal; no second outlet found, flagged on-screen and in research/batch10-sources.md as one outlet's account, not cross-verified fact"
+  },
+  "IsakPenalty": {
+    "youtube": "MUisRLSLRzk",
+    "youtube_published": "2026-11-16",
+    "tiktok_published": "2026-11-16",
+    "instagram_published": "2026-11-16",
+    "playlist": "Sport, by the numbers",
+    "format": "tactic board #4 (board.tsx template)",
+    "sources": "Single-sourced to ESPN's report of the Premier League's independent KMI Panel ruling (11 Nov 2026) on the Isak penalty shout; panel split 3-2 on whether VAR should have intervened; no second outlet found, flagged on-screen and here as one outlet's account, not cross-verified fact; no view taken on the panel's verdict"
+  }
 }
