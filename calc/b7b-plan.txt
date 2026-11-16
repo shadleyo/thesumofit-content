@@ -1,0 +1,30 @@
+ "PetrolRelief": [
+   ("ninetyfive unleaded", ["ninetyfive", "a fifty litre"]),
+   ("that price already", ["until the first", "thats seventyfive", "on every tank"]),
+   ("from the second",    ["from the second", "fifty rand a tank", "until the fifth"]),
+   ("know your tank",     [("+", 3), ("+", 80)]),
+ ],
+ "TFSAMax": [
+   ("the taxfree",        ["the taxfree", "thats about three"]),
+   ("max it from",        ["max it from", "you reach", "then you stop"]),
+   ("leave it to grow",   ["leave it to grow", "five hundred thousand in"]),
+   ("fill it early",      [("+", 3), ("+", 80)]),
+ ],
+ "RARefund": [
+   ("put two thousand",   ["put two thousand", "thats twentyfour"]),
+   ("contributions are",  ["if your top", "sars gives", ("+", 60)]),
+   ("so each two",        [("+", 3), "really costs"]),
+   ("the tax comes",      [("+", 3), ("+", 80)]),
+ ],
+ "TwoPot": [
+   ("thirty thousand rand in", ["thirty thousand", "but what does"]),
+   ("its taxed at",       ["thats nine thousand", "you get twenty", ("+", 40)]),
+   ("leave it invested",  ["it grows to", ("+", 40)]),
+   ("twenty thousand now", [("+", 3), ("+", 80)]),
+ ],
+ "TaxBracket": [
+   ("your raise pushes",  ["your raise", "do you lose"]),
+   ("no say your",        ["no say", "the thirtyone percent rate", "so only"]),
+   ("your tax goes up",   ["your tax goes", "you keep almost", ("+", 50)]),
+   ("a higher bracket",   [("+", 3), ("+", 80)]),
+ ],

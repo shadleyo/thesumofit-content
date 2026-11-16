@@ -1,0 +1,109 @@
+{
+ "source": "Pre-war = AAA price on 13 Oct minus change since 26 Feb (Newsweek, 13 Oct 2026); now = AAA 20-21 Oct 2026",
+ "states": [
+  {
+   "state": "Montana",
+   "prewar": 2.79,
+   "now": 4.46,
+   "increase": 1.67,
+   "pct": 60,
+   "tank15": 25.01
+  },
+  {
+   "state": "Nebraska",
+   "prewar": 2.72,
+   "now": 4.36,
+   "increase": 1.64,
+   "pct": 60,
+   "tank15": 24.63
+  },
+  {
+   "state": "Iowa",
+   "prewar": 2.63,
+   "now": 4.13,
+   "increase": 1.5,
+   "pct": 57,
+   "tank15": 22.47
+  },
+  {
+   "state": "Michigan",
+   "prewar": 3.01,
+   "now": 4.46,
+   "increase": 1.45,
+   "pct": 48,
+   "tank15": 21.79
+  },
+  {
+   "state": "Maine",
+   "prewar": 2.91,
+   "now": 4.34,
+   "increase": 1.43,
+   "pct": 49,
+   "tank15": 21.39
+  },
+  {
+   "state": "New Hampshire",
+   "prewar": 2.85,
+   "now": 4.25,
+   "increase": 1.4,
+   "pct": 49,
+   "tank15": 21.0
+  },
+  {
+   "state": "Alaska",
+   "prewar": 3.6,
+   "now": 4.91,
+   "increase": 1.31,
+   "pct": 36,
+   "tank15": 19.69
+  },
+  {
+   "state": "Ohio",
+   "prewar": 2.76,
+   "now": 4.01,
+   "increase": 1.25,
+   "pct": 45,
+   "tank15": 18.69
+  },
+  {
+   "state": "Texas",
+   "prewar": 2.61,
+   "now": 3.78,
+   "increase": 1.17,
+   "pct": 45,
+   "tank15": 17.49
+  },
+  {
+   "state": "South Carolina",
+   "prewar": 2.69,
+   "now": 3.83,
+   "increase": 1.14,
+   "pct": 43,
+   "tank15": 17.15
+  },
+  {
+   "state": "Florida",
+   "prewar": 2.94,
+   "now": 4.04,
+   "increase": 1.1,
+   "pct": 38,
+   "tank15": 16.55
+  },
+  {
+   "state": "Georgia",
+   "prewar": 2.78,
+   "now": 3.72,
+   "increase": 0.94,
+   "pct": 34,
+   "tank15": 14.15
+  },
+  {
+   "state": "North Carolina",
+   "prewar": 2.78,
+   "now": 3.59,
+   "increase": 0.81,
+   "pct": 29,
+   "tank15": 12.16
+  }
+ ]
+}
