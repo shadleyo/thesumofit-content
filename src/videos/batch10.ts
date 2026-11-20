@@ -9,7 +9,7 @@ const timed = (r: Recipe, tt: T): Recipe => ({...r, audio: `audio/${r.id}.mp3`, 
 const CH = 'THE SUM OF IT';
 
 export const franceBoks = timed({
-  id: 'FranceBoks', channel: CH,
+  id: 'FranceBoks', channel: CH, theme: 'rugby',
   thumb: {kicker: 'FRANCE 21–19 SOUTH AFRICA', from: 'The Springboks lost by two points.', link: 'A try is worth', to: '5', foot: 'the numbers'},
   scenes: [
     {type: 'hook', dur: 120, kicker: 'Nations Championship · Paris', lines: ['The Springboks lost', '*by two points.*']},
@@ -37,7 +37,7 @@ export const franceBoks = timed({
 }, tF as T);
 
 export const walesAB = timed({
-  id: 'WalesAB', channel: CH,
+  id: 'WalesAB', channel: CH, theme: 'rugby',
   thumb: {kicker: 'WALES 35–28 NEW ZEALAND', from: 'Wales beat the All Blacks.', link: 'The last time was', to: '1953', foot: '73 years'},
   scenes: [
     {type: 'hook', dur: 175, kicker: 'Nations Championship · Cardiff', lines: ['Wales beat the All Blacks.', '*It took 73 years.*']},

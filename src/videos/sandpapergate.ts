@@ -14,7 +14,7 @@ const timed = (r: Recipe, tt: T): Recipe => ({...r, audio: `audio/${r.id}.mp3`, 
 const CH = 'THE SUM OF IT';
 
 export const sandpapergate = timed({
-  id: 'Sandpapergate', channel: CH,
+  id: 'Sandpapergate', channel: CH, theme: 'cricket',
   thumb: {kicker: 'SANDPAPERGATE · 2026', from: "Khawaja says the whole squad knew.", link: 'Cummins says', to: '"Utter nonsense"', foot: 'every claim, attributed'},
   scenes: [
     {type: 'hook', dur: 190, kicker: 'Sport, by the numbers', lines: ["Australia's captain", 'is *under fire.*']},

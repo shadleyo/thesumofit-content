@@ -71,7 +71,9 @@ export type Scene = (HookScene | PeopleScene | RaceScene | RevealScene | BarsSce
   cues?: number[];
 };
 // thumb: a still added as the last frames, so it can be picked as the thumbnail in the YouTube/TikTok apps.
-export type Recipe = {id: string; channel: string; audio?: string; thumb?: ThumbProps; scenes: Scene[]; currency?: string};
+// theme: optional palette name for templates that support theming (e.g. sumofit.tsx's SumVideo:
+// 'money' default cream/claret, 'rugby' dark pitch-green/gold, 'cricket' ivory/navy).
+export type Recipe = {id: string; channel: string; audio?: string; thumb?: ThumbProps; scenes: Scene[]; currency?: string; theme?: 'money' | 'rugby' | 'cricket'};
 const THUMB_FRAMES = 20;
 const cue = (s: {cues?: number[]}, i: number, fallback: number) => s.cues?.[i] ?? fallback;
 
