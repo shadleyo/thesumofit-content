@@ -558,6 +558,16 @@ PLAN = {
    ("and the senate",     ["and the senate", "too close"]),
    ("the election is",    [("+", 3), ("+", 70)]),
  ],
+ "Sandpapergate": [
+   ("australias captain",   ["australias captain", "under fire"]),
+   ("cape town",            ["steve smith", "david warner", "cameron bancroft", "plus a fine"]),
+   ("in his memoir",        ["usman khawaja claims", "cummins rejects", "complete and utter"]),
+   ("david warner backed",  ["one hundred percent correct", "three of the four", "stinks of a cover"]),
+   ("cricket australia isnt", ["isnt reopening", "did not know a foreign", "differ substantially"]),
+   ("then came a new",      ["four thousand words", "the entire team knew", "attributed to cameron"]),
+   ("eight years on",       ["four players have", "one captain is", "still denying it"]),
+   ("same scandal",         ["same scandal", "follow for the next"]),
+ ],
  "StoreCard": [
    ("a thousand",         ["a thousand", "if you only", "how long"]),
    ("meet sam",           ["sam pays the", "alex pays a", ("+", 265)]),
