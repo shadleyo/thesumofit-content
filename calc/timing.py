@@ -6,6 +6,15 @@ FPS = 30
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 
 PLAN = {
+ "WieseRed": [
+   ("a yellow then",      ["a yellow", "then a red", "then a fourweek", "heres how"]),
+   ("early in the",       ["early in", "a ruck in", "wiese comes", "kalvin gourgues"]),
+   ("the referee shows",  ["the referee", "law nine", "no contact", "several reports"]),
+   ("then the bunker",    ["then the bunker", "a twentyminute", "wiese is off", "but south africa"]),
+   ("the panels sum",     ["the panels", "a midrange", "four weeks", "finish world", "drops to three"]),
+   ("thats the ireland",  ["thats the ireland", "finals weekend", "two club", "he admitted"]),
+   ("france won by",      ["france won", "four weeks too", "you be the panel", "follow for"]),
+ ],
  "Coffee": [
    ("one coffee",         ["one coffee", "five dollars", "for thirty", "what does"]),
    ("meet jordan",        ["jordan buys", "riley skips", ("+", 250)]),

@@ -24,7 +24,7 @@ export type Overlay =
   | {type: 'label'; from: number; to: number; x: number; y: number; text: string; tone?: 'cream' | 'gold' | 'red' | 'navy'; size?: number}
   | {type: 'path'; from: number; to: number; pts: [number, number][]; color?: string}
   | {type: 'zone'; from: number; to: number; x: number; y: number; w: number; h: number}
-  | {type: 'card'; from: number; to: number; x: number; y: number}
+  | {type: 'card'; from: number; to: number; x: number; y: number; color?: 'yellow' | 'red'}
   | {type: 'burst'; from: number; to: number; x: number; y: number};
 export type Big = {from: number; to: number; y: number; lines: {at: number; text: string; tone?: 'cream' | 'gold' | 'red' | 'navy'; size?: number; strike?: number}[]};
 export type BoardRecipe = {
@@ -128,7 +128,7 @@ export const BoardVideo: React.FC<{recipe: BoardRecipe}> = ({recipe: r}) => {
         const v = vis(f, o.from, o.to); if (v <= 0) return null;
         const s = sp(o.from);
         if (o.type === 'label') return <div key={i} style={{position: 'absolute', left: X(o.x), top: Y(o.y), opacity: v, transform: 'translate(-50%,-50%)'}}><Chip text={o.text} tone={o.tone} size={o.size ?? 34} s={s} /></div>;
-        if (o.type === 'card') return <div key={i} style={{position: 'absolute', left: X(o.x) - 26, top: Y(o.y) - 38, width: 52, height: 76, borderRadius: 7, background: B.yellow, border: `3px solid ${B.ink}`, opacity: v, transform: `rotate(${-10 + 10 * s}deg) scale(${s})`, boxShadow: '0 6px 14px rgba(0,0,0,0.4)'}} />;
+        if (o.type === 'card') return <div key={i} style={{position: 'absolute', left: X(o.x) - 26, top: Y(o.y) - 38, width: 52, height: 76, borderRadius: 7, background: o.color === 'red' ? B.red : B.yellow, border: `3px solid ${B.ink}`, opacity: v, transform: `rotate(${-10 + 10 * s}deg) scale(${s})`, boxShadow: '0 6px 14px rgba(0,0,0,0.4)'}} />;
         if (o.type === 'burst') return <div key={i} style={{position: 'absolute', left: X(o.x) - 60, top: Y(o.y) - 60, width: 120, height: 120, borderRadius: 60, border: `8px solid ${B.red}`, opacity: v * (1 - interpolate(f, [o.from, o.from + 26], [0, 1], clamp) * 0.6), transform: `scale(${0.4 + interpolate(f, [o.from, o.from + 26], [0, 1.2], clamp)})`}} />;
         return null;
       })}
