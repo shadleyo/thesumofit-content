@@ -31,6 +31,7 @@ export type BoardRecipe = {
   id: string; audio?: string; dur: number; series: string; match: string; note: string;
   teams: {a: string; b: string; aColor?: string; bColor?: string};
   dots: Dot[]; ball: KF[]; captions: Caption[]; overlays: Overlay[]; bigs: Big[];
+  pitch?: 'rugby' | 'football';  // default rugby (try line + 22); football draws a halfway line + centre-circle arc
 };
 
 const at = (kf: KF[], f: number): [number, number] => {
@@ -66,6 +67,22 @@ const Pitch: React.FC = () => (
   </AbsoluteFill>
 );
 
+// Football: same stripes, touchline on the right, halfway line 10 m down, centre circle (9.15 m) centred off-screen left.
+const FootballPitch: React.FC = () => (
+  <AbsoluteFill>
+    <AbsoluteFill style={{background: B.bg}} />
+    {Array.from({length: 11}).map((_, i) => (
+      <div key={i} style={{position: 'absolute', left: 0, right: 0, top: Y(-5 + i * 5), height: 5 * M, background: i % 2 ? B.pitch : B.stripe}} />
+    ))}
+    <div style={{position: 'absolute', left: 0, width: X(31), top: Y(10) - 3, height: 6, background: B.line, opacity: 0.9}} />
+    <svg width={1080} height={1920} style={{position: 'absolute', left: 0, top: 0}}>
+      <circle cx={X(-3)} cy={Y(10)} r={9.15 * M} stroke={B.line} strokeWidth={5} fill="none" opacity={0.85} />
+    </svg>
+    <div style={{position: 'absolute', left: X(31) - 3, width: 6, top: Y(-5), bottom: 0, background: B.line}} />
+    <div style={{position: 'absolute', left: X(9), top: Y(10) - 44, fontFamily: MONO, fontSize: 22, letterSpacing: 4, color: B.line, opacity: 0.75}}>HALFWAY</div>
+  </AbsoluteFill>
+);
+
 const Chip: React.FC<{text: string; tone?: keyof typeof TONE; size?: number; s: number; strike?: number}> = ({text, tone = 'cream', size = 46, s, strike = 0}) => (
   <div style={{display: 'inline-block', position: 'relative', background: TONE[tone][0], color: TONE[tone][1], fontFamily: SERIF, fontWeight: 600, fontSize: size, lineHeight: 1.12,
     padding: `${size * 0.22}px ${size * 0.42}px`, borderRadius: 10, opacity: s, transform: `translateY(${(1 - s) * 24}px)`, boxShadow: '0 6px 18px rgba(0,0,0,0.28)'}}>
@@ -85,7 +102,7 @@ export const BoardVideo: React.FC<{recipe: BoardRecipe}> = ({recipe: r}) => {
   return (
     <AbsoluteFill style={{background: B.bg}}>
       {r.audio && <Audio src={staticFile(r.audio)} />}
-      <Pitch />
+      {r.pitch === 'football' ? <FootballPitch /> : <Pitch />}
       {/* zones and paths under the players */}
       {r.overlays.map((o, i) => {
         const v = vis(f, o.from, o.to); if (v <= 0) return null;
@@ -122,7 +139,7 @@ export const BoardVideo: React.FC<{recipe: BoardRecipe}> = ({recipe: r}) => {
         );
       })}
       {/* ball */}
-      <div style={{position: 'absolute', left: X(bx) - 15, top: Y(by) - 11, width: 30, height: 22, borderRadius: '50%', background: '#fff', border: `3px solid ${B.ink}`, opacity: sp(r.ball[0][0] - 6), boxShadow: '0 3px 8px rgba(0,0,0,0.4)'}} />
+      <div style={{position: 'absolute', left: X(bx) - 15, top: Y(by) - (r.pitch === 'football' ? 15 : 11), width: 30, height: r.pitch === 'football' ? 30 : 22, borderRadius: '50%', background: '#fff', border: `3px solid ${B.ink}`, opacity: sp(r.ball[0][0] - 6), boxShadow: '0 3px 8px rgba(0,0,0,0.4)'}} />
       {/* labels, cards, bursts above the players */}
       {r.overlays.map((o, i) => {
         const v = vis(f, o.from, o.to); if (v <= 0) return null;
