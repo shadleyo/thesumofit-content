@@ -6,6 +6,15 @@ FPS = 30
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 
 PLAN = {
+ "MoodieTouch": [
+   ("a try in",           ["a try", "then its", "heres how"]),
+   ("ireland lead",       ["ireland lead", "soon after", "canan moodie", "in the corner"]),
+   ("the tmo checks",     ["the tmo", "one report", "another says", "a split"]),
+   ("law eighteen",       ["law eighteen", "if the", "hes in", "no try"]),
+   ("thats five",         ["thats five", "seven with", "minutes later", "twenty ten"]),
+   ("malcolm marx",       ["malcolm marx", "twenty seventeen", "south africa lose", "but the losing"]),
+   ("a try is",           ["a try is", "the margin", "right call", "you be the", "follow for"]),
+ ],
  "BogleTel": [
    ("three votes to",     ["three votes", "thats how", "a red card"]),
    ("leeds against",      ["leeds against", "thirtyfourth", "jayden bogle", "mathys tel"]),
