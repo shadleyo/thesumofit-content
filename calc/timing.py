@@ -14,6 +14,7 @@ PLAN = {
    ("separately untelevised", ["separately untelevised", "shared on social", "appears to show", "widely reported", "not mentioned"]),
    ("russell after qualifying", ["russell after qualifying", "pretty clear i think", "somebodys got to stand", "verstappen nothing happened"]),
    ("a warning not",      ["a warning not", "right call", "you be the steward", "follow for"]),
+ ],
  "LakaiSteal": [
    ("the all blacks",     ["the all blacks", "then england", "heres how"]),
    ("twickenham",         ["twickenham", "england lead", "then peter", "steals the"]),
