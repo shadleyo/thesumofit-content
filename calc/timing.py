@@ -13,7 +13,7 @@ PLAN = {
    ("twenty twentyfive", ["twenty twentyfive", "he wins by", "both mclarens"]),
    ("twenty twentysix",  ["twenty twentysix", "he starts", "after antonellis", "one live", "and verstappen taking", "both times"]),
    ("late on",           ["late on", "antonelli has", "verstappen wins", "norris second"]),
-   ("four vegas",        ["four vegas", "three wins", "and a world", "what verstappen", "follow for"]),
+   ("four vegas",        ["four vegas", "three wins", "and a world", "what verstappen", "subscribe for"]),
  ],
  "VerstappenRussell": [
    ("las vegas friday",   ["las vegas friday", "verstappen and russell", "turn fourteen", "heres how"]),
@@ -31,7 +31,7 @@ PLAN = {
    ("that report adds",   ["that report", "nic berry", "so no penalty", "england get"]),
    ("ben earl",           ["ben earl", "and goes", "converted", "nineteen nil"]),
    ("england finish",     ["england finish", "thirtyseven twelve", "their biggest"]),
-   ("new zealand win",    ["new zealand win", "and concede", "right call", "you be the", "follow for"]),
+   ("new zealand win",    ["new zealand win", "and concede", "right call", "you be the", "subscribe for"]),
  ],
  "BoksBackline": [
    ("south africa are",   ["south africa", "but in dublin", "the backline", "here it is"]),
@@ -40,7 +40,7 @@ PLAN = {
    ("in the air",         ["in the air", "three reports", "ireland won", "the bok wings"]),
    ("one stats sheet",    ["one stats", "a hundred and fortynine", "south africa a", "a hundred and seven"]),
    ("assistant coach",    ["assistant coach", "ireland capitalised", "exit kicks"]),
-   ("lost by three",      ["lost by three", "through on", "twickenham", "can the backline", "you be the", "follow for"]),
+   ("lost by three",      ["lost by three", "through on", "twickenham", "can the backline", "you be the", "subscribe for"]),
  ],
  "MoodieTouch": [
    ("a try in",           ["a try", "then its", "heres how"]),

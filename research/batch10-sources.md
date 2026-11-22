@@ -83,3 +83,7 @@
 - 2026: pole after Antonelli five-place PU penalty — official grid https://www.formula1.com/en/results/2026/races/1300/las-vegas/starting-grid + RNT. Win + Norris 2nd — Autosport live text https://www.autosport.com/f1/live-text/f1-las-vegas-gp-follow-the-race-in-las-vegas-with-live-timing-/1128378/ + The Big Lead https://www.thebiglead.com/2026-f1-las-vegas-grand-prix-results-winner-full-finishing-order/ . Russell off late (Autosport: wall at Turn 5; Big Lead: locked up, veered off, P9) — said as "goes off". Antonelli late problem (Autosport "derate"; Big Lead "issue"), P4 in both.
 - SINGLE-SOURCED, flagged on screen ("one live report"): Norris and Antonelli each taking the lead with Verstappen re-passing (Autosport only).
 - NOT used: 0.6s margin (Big Lead only, self-described unofficial); Piastri P3 (Autosport only); 2026 win tally/career total (not found); official F1 race classification not yet published at build time — re-check before posting.
+## 22 Nov 2026: subscribe CTA added (Shadley: no subscribe call to action was seen or heard)
+- board.tsx: subscribe end card on every board video for the last 5 s (handle, red SUBSCRIBE button that clicks to SUBSCRIBED). Recipe `ctaFrom` overrides; -1 hides.
+- Spoken outro on board videos changed from "Follow for the next sum." to "Subscribe for the next sum." — re-voiced BoksBackline, LakaiSteal, VegasMax (unposted). MoodieTouch already live, unchanged.
+- render-sum.sh thumbnails now grabbed 5.4 s before the end, so the end card isn't in the thumbnail.

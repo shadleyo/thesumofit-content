@@ -3,7 +3,7 @@
 // Positions are reconstructions from match reports: always labelled "not to scale".
 import React from 'react';
 import {AbsoluteFill, Audio, Easing, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {MONO, SERIF, useFonts} from './sumofit';
+import {HANDLE, MONO, SERIF, useFonts} from './sumofit';
 
 export const B = {
   bg: '#0B2A1F', pitch: '#17553B', stripe: '#1B5F43', line: '#EFE9DC', cream: '#F3EDE2', ink: '#16130F',
@@ -42,6 +42,7 @@ export type BoardRecipe = {
   trackLabel?: string;  // overlay label on the track surface, e.g. 'TURN 14'. Default 'TRACK LIMIT'.
   theme?: 'pitch' | 'black';  // default 'pitch'; 'black' = premium dark scheme for All Blacks videos
   ballUntil?: number;  // fade the ball out by this frame
+  ctaFrom?: number;  // frame the subscribe end card appears (default: 5 s before the end); -1 hides it
 };
 
 
@@ -254,6 +255,29 @@ export const BoardVideo: React.FC<{recipe: BoardRecipe}> = ({recipe: r}) => {
         <span><span style={{display: 'inline-block', width: 20, height: 20, borderRadius: 10, background: col.b, border: P.glow ? '1.5px solid #D9DCE1' : undefined, boxSizing: 'border-box', marginRight: 9, verticalAlign: -3}} />{r.teams.b.toUpperCase()}</span>
       </div>
       <div style={{position: 'absolute', left: 60, right: 200, bottom: 330, fontFamily: MONO, fontSize: 19, lineHeight: 1.45, letterSpacing: 1, color: P.sub}}>{r.match}<br />{r.note}</div>
+      {/* subscribe end card: slides up for the last few seconds; the button 'clicks' to Subscribed */}
+      {r.ctaFrom !== -1 && (() => {
+        const from = r.ctaFrom ?? r.dur - 150; if (f < from) return null;
+        const inn = sp(from); const click = from + 38;
+        const pressed = f >= click; const bump = 1 - 0.08 * interpolate(f, [click - 4, click, click + 6], [0, 1, 0], clamp);
+        return (
+          <div style={{position: 'absolute', left: 60, right: 60, bottom: 120, height: 150, opacity: inn, transform: `translateY(${(1 - inn) * 60}px)`,
+            display: 'flex', alignItems: 'center', gap: 28, padding: '0 34px', borderRadius: P.chipRadius + 6,
+            background: P.glow ? 'rgba(14,14,16,0.92)' : 'rgba(0,0,0,0.55)', border: P.glow ? '1px solid rgba(255,255,255,0.22)' : `2px solid ${P.cream}33`,
+            boxShadow: '0 14px 40px rgba(0,0,0,0.5)'}}>
+            <div style={{width: 92, height: 92, borderRadius: 46, background: P.cream, color: P.ink, display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontFamily: SERIF, fontWeight: 700, fontSize: 40}}>Σ</div>
+            <div style={{flex: 1}}>
+              <div style={{fontFamily: SERIF, fontWeight: 700, fontSize: 40, color: P.cream}}>The Sum <i style={{fontWeight: 400}}>of</i> It</div>
+              <div style={{fontFamily: MONO, fontSize: 21, letterSpacing: 3, color: P.sub, marginTop: 6}}>{HANDLE.toUpperCase()} · SPORT &amp; MONEY, BY THE NUMBERS</div>
+            </div>
+            <div style={{transform: `scale(${bump})`, padding: '20px 30px', borderRadius: 40, fontFamily: MONO, fontWeight: 500, fontSize: 28, letterSpacing: 2,
+              background: pressed ? 'rgba(255,255,255,0.16)' : '#E10600', color: '#fff', boxShadow: pressed ? 'none' : '0 6px 22px rgba(225,6,0,0.45)'}}>
+              {pressed ? 'SUBSCRIBED ✓' : 'SUBSCRIBE'}
+            </div>
+          </div>
+        );
+      })()}
     </AbsoluteFill>
   );
 };
