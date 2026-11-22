@@ -6,6 +6,15 @@ FPS = 30
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 
 PLAN = {
+ "BoksBackline": [
+   ("south africa are",   ["south africa", "but in dublin", "the backline", "here it is"]),
+   ("two springbok",      ["two springbok", "one from", "one by the", "irelands wing", "two on"]),
+   ("his first",          ["his first", "a pass", "a step", "and over"]),
+   ("in the air",         ["in the air", "three reports", "ireland won", "the bok wings"]),
+   ("one stats sheet",    ["one stats", "a hundred and fortynine", "south africa a", "a hundred and seven"]),
+   ("assistant coach",    ["assistant coach", "ireland capitalised", "exit kicks"]),
+   ("lost by three",      ["lost by three", "through on", "twickenham", "can the backline", "you be the", "follow for"]),
+ ],
  "MoodieTouch": [
    ("a try in",           ["a try", "then its", "heres how"]),
    ("ireland lead",       ["ireland lead", "soon after", "canan moodie", "in the corner"]),

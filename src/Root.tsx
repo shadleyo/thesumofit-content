@@ -33,6 +33,7 @@ import {knockOnCall} from './videos/knockOnCall';
 import {wieseRed} from './videos/wieseRed';
 import {bogleTel} from './videos/bogleTel';
 import {moodieTouch} from './videos/moodieTouch';
+import {boksBackline} from './videos/boksBackline';
 import {mpc} from './videos/mpc';
 import {sandpapergate} from './videos/sandpapergate';
 import {wedding, carFinance, millionRetire, deliveryFees, mattress} from './videos/batch9';
@@ -68,7 +69,7 @@ export const Root: React.FC = () => (
       <Composition key={'S' + r.id} id={'Sum-' + r.id} component={SumVideo} defaultProps={{recipe: {...r, series: SERIES[r.id]}}}
         durationInFrames={sumDuration(r)} fps={30} width={1080} height={1920} />
     ))}
-    {[penaltyTry, arendseOffside, knockOnCall, wieseRed, bogleTel, moodieTouch].map((b) => (
+    {[penaltyTry, arendseOffside, knockOnCall, wieseRed, bogleTel, moodieTouch, boksBackline].map((b) => (
       <Composition key={'B' + b.id} id={'Sum-' + b.id} component={BoardVideo} defaultProps={{recipe: b}} durationInFrames={boardDuration(b)} fps={30} width={1080} height={1920} />
     ))}
     <Composition id="Wide-Ep1" component={WideVideo} defaultProps={{recipe: ep1}} durationInFrames={wideDuration(ep1)} fps={30} width={1920} height={1080} />
