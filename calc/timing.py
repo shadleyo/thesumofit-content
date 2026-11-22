@@ -6,6 +6,15 @@ FPS = 30
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 
 PLAN = {
+ "VegasMax": [
+   ("what verstappen does", ["what verstappen", "stays in", "four races", "heres how"]),
+   ("twenty twentythree", ["twenty twentythree", "the first", "a fivesecond", "a damaged", "he still wins"]),
+   ("twenty twentyfour", ["twenty twentyfour", "he finishes", "and leaves", "only the sixth"]),
+   ("twenty twentyfive", ["twenty twentyfive", "he wins by", "both mclarens"]),
+   ("twenty twentysix",  ["twenty twentysix", "he starts", "after antonellis", "one live", "and verstappen taking", "both times"]),
+   ("late on",           ["late on", "antonelli has", "verstappen wins", "norris second"]),
+   ("four vegas",        ["four vegas", "three wins", "and a world", "what verstappen", "follow for"]),
+ ],
  "VerstappenRussell": [
    ("las vegas friday",   ["las vegas friday", "verstappen and russell", "turn fourteen", "heres how"]),
    ("verstappen passes",  ["verstappen passes", "on the back straight", "then he brakes", "changes direction"]),
