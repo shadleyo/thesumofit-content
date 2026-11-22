@@ -14,6 +14,14 @@ PLAN = {
    ("separately untelevised", ["separately untelevised", "shared on social", "appears to show", "widely reported", "not mentioned"]),
    ("russell after qualifying", ["russell after qualifying", "pretty clear i think", "somebodys got to stand", "verstappen nothing happened"]),
    ("a warning not",      ["a warning not", "right call", "you be the steward", "follow for"]),
+ "LakaiSteal": [
+   ("the all blacks",     ["the all blacks", "then england", "heres how"]),
+   ("twickenham",         ["twickenham", "england lead", "then peter", "steals the"]),
+   ("then a knockon",     ["then a knockon", "two reports", "a third", "and a stray"]),
+   ("that report adds",   ["that report", "nic berry", "so no penalty", "england get"]),
+   ("ben earl",           ["ben earl", "and goes", "converted", "nineteen nil"]),
+   ("england finish",     ["england finish", "thirtyseven twelve", "their biggest"]),
+   ("new zealand win",    ["new zealand win", "and concede", "right call", "you be the", "follow for"]),
  ],
  "BoksBackline": [
    ("south africa are",   ["south africa", "but in dublin", "the backline", "here it is"]),
