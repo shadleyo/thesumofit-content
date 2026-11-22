@@ -6,6 +6,15 @@ FPS = 30
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 
 PLAN = {
+ "VerstappenRussell": [
+   ("las vegas friday",   ["las vegas friday", "verstappen and russell", "turn fourteen", "heres how"]),
+   ("verstappen passes",  ["verstappen passes", "on the back straight", "then he brakes", "changes direction"]),
+   ("russell moves",      ["russell moves", "to avoid him", "and makes contact"]),
+   ("the stewards call",  ["the stewards call", "below the standard", "their penalty", "a driver warning", "no points"]),
+   ("separately untelevised", ["separately untelevised", "shared on social", "appears to show", "widely reported", "not mentioned"]),
+   ("russell after qualifying", ["russell after qualifying", "pretty clear i think", "somebodys got to stand", "verstappen nothing happened"]),
+   ("a warning not",      ["a warning not", "right call", "you be the steward", "follow for"]),
+ ],
  "BoksBackline": [
    ("south africa are",   ["south africa", "but in dublin", "the backline", "here it is"]),
    ("two springbok",      ["two springbok", "one from", "one by the", "irelands wing", "two on"]),
