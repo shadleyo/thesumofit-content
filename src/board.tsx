@@ -37,7 +37,8 @@ export type BoardRecipe = {
   id: string; audio?: string; dur: number; series: string; match: string; note: string;
   teams: {a: string; b: string; aColor?: string; bColor?: string};
   dots: Dot[]; ball: KF[]; captions: Caption[]; overlays: Overlay[]; bigs: Big[];
-  pitch?: 'rugby' | 'football' | 'track';  // default rugby (try line + 22); football: halfway + centre circle;
+  pitch?: 'rugby' | 'football' | 'football-box' | 'track';  // default rugby (try line + 22); football: halfway + centre circle;
+  // football-box: the goal end (goal line at y=0, goal centred at x=16.9, six-yard box, 16.5 m penalty-area edge, spot, D);
   // track: an F1 straight (carbon/cyan HUD palette instead of the grass pitches). No ball is drawn for 'track'.
   trackLabel?: string;  // overlay label on the track surface, e.g. 'TURN 14'. Default 'TRACK LIMIT'.
   theme?: 'pitch' | 'black';  // default 'pitch'; 'black' = premium dark scheme for All Blacks videos
@@ -114,6 +115,32 @@ const FootballPitch: React.FC<{P: Theme}> = ({P}) => (
   </AbsoluteFill>
 );
 
+// Football, goal end: goal line at y=0 with the goal centred at x=GX; six-yard box, penalty-area edge at 16.5 m
+// (its sides run off-screen: the area is 40.3 m wide), penalty spot at 11 m and the D (9.15 m arc from the spot).
+const GX = 16.9;
+const FootballBox: React.FC<{P: Theme}> = ({P}) => {
+  const dy = Math.sqrt(9.15 ** 2 - 5.5 ** 2);  // half-width of the D where it meets the area edge
+  return (
+    <AbsoluteFill>
+      <AbsoluteFill style={{background: P.bg}} />
+      {Array.from({length: 11}).map((_, i) => (
+        <div key={i} style={{position: 'absolute', left: 0, right: 0, top: Y(-5 + i * 5), height: 5 * M, background: i % 2 ? P.pitch : P.stripe}} />
+      ))}
+      <svg width={1080} height={1920} style={{position: 'absolute', left: 0, top: 0}}>
+        <g stroke={P.line} strokeWidth={5} fill="none" opacity={0.88}>
+          <line x1={0} y1={Y(0)} x2={1080} y2={Y(0)} />
+          <rect x={X(GX - 3.66)} y={Y(-2)} width={7.32 * M} height={2 * M} strokeDasharray="10 8" opacity={0.7} />
+          <rect x={X(GX - 9.16)} y={Y(0)} width={18.32 * M} height={5.5 * M} />
+          <line x1={0} y1={Y(16.5)} x2={1080} y2={Y(16.5)} />
+          <path d={`M${X(GX - dy)},${Y(16.5)} A${9.15 * M},${9.15 * M} 0 0 0 ${X(GX + dy)},${Y(16.5)}`} />
+        </g>
+        <circle cx={X(GX)} cy={Y(11)} r={6} fill={P.line} opacity={0.88} />
+      </svg>
+      <div style={{position: 'absolute', left: X(1), top: Y(16.5) - 40, fontFamily: MONO, fontSize: 22, letterSpacing: 4, color: P.line, opacity: 0.75}}>PENALTY AREA</div>
+    </AbsoluteFill>
+  );
+};
+
 // F1 straight: dark asphalt, white track-limit lines, red/white kerbing on the apex edge, a turn-number readout.
 // Reuses the same X/Y coordinate frame as the pitches so dots, paths and overlays need no special-casing.
 const TrackSurface: React.FC<{label?: string}> = ({label = 'TRACK LIMIT'}) => (
@@ -172,7 +199,7 @@ export const BoardVideo: React.FC<{recipe: BoardRecipe}> = ({recipe: r}) => {
   return (
     <AbsoluteFill style={{background: P.bg}}>
       {r.audio && <Audio src={staticFile(r.audio)} />}
-      {isTrack ? <TrackSurface label={r.trackLabel} /> : r.pitch === 'football' ? <FootballPitch P={P} /> : <Pitch P={P} />}
+      {isTrack ? <TrackSurface label={r.trackLabel} /> : r.pitch === 'football' ? <FootballPitch P={P} /> : r.pitch === 'football-box' ? <FootballBox P={P} /> : <Pitch P={P} />}
       {isTrack && <HUDCorners />}
       {P.glow && <AbsoluteFill style={{background: 'radial-gradient(ellipse 85% 60% at 50% 48%, rgba(255,255,255,0.045) 0%, transparent 55%, rgba(0,0,0,0.7) 100%)'}} />}
       {P.glow && <AbsoluteFill style={{background: 'linear-gradient(180deg, #030303 0px, rgba(3,3,3,0.92) 420px, transparent 560px)'}} />}
@@ -213,7 +240,7 @@ export const BoardVideo: React.FC<{recipe: BoardRecipe}> = ({recipe: r}) => {
         );
       })}
       {/* ball (F1 track has no ball) */}
-      {!isTrack && <div style={{position: 'absolute', left: X(bx) - 15, top: Y(by) - (r.pitch === 'football' ? 15 : 11), width: 30, height: r.pitch === 'football' ? 30 : 22, borderRadius: '50%', background: '#fff', border: `3px solid ${P.ink}`, opacity: sp(r.ball[0][0] - 6) * (r.ballUntil ? interpolate(f, [r.ballUntil - 12, r.ballUntil], [1, 0], clamp) : 1), boxShadow: '0 3px 8px rgba(0,0,0,0.4)'}} />}
+      {!isTrack && <div style={{position: 'absolute', left: X(bx) - 15, top: Y(by) - (r.pitch?.startsWith('football') ? 15 : 11), width: 30, height: r.pitch?.startsWith('football') ? 30 : 22, borderRadius: '50%', background: '#fff', border: `3px solid ${P.ink}`, opacity: sp(r.ball[0][0] - 6) * (r.ballUntil ? interpolate(f, [r.ballUntil - 12, r.ballUntil], [1, 0], clamp) : 1), boxShadow: '0 3px 8px rgba(0,0,0,0.4)'}} />}
       {/* labels, cards, bursts above the players */}
       {r.overlays.map((o, i) => {
         const v = vis(f, o.from, o.to); if (v <= 0) return null;
