@@ -486,5 +486,16 @@
     "youtube_published": "2026-11-22",
     "tiktok_published": "2026-11-22",
     "sources": "FIA, Formula1.com, NBC News, Al Jazeera, Autosport, The Big Lead. Lead changes in the 2026 race are from one live report (Autosport); positions flagged as illustrative."
+  },
+  "YoroRed": {
+    "status": "built 2026-11-23, NOT published: scheduled cloud run had no browser (Chrome tools unavailable), so YouTube/TikTok upload could not run",
+    "youtube": null,
+    "youtube_published": null,
+    "tiktok_published": null,
+    "title": "Leny Yoro's red inside ten minutes: obvious chance, or the keeper's ball?",
+    "playlist": "Sport, by the numbers",
+    "format": "tactic board #10 (board.tsx, football-box pitch)",
+    "sources": "Premier League MW11 VAR explainer, Evening Standard, The Independent, Sky Sports, Brit Brief (cross-verified red, DOGSO, VAR confirmation, free kick, 4-0). Whether it was still an obvious chance is disputed (officials vs United) and shown as disputed; minute reported as 7', 8' or 9'. Positions illustrative.",
+    "metadata": "metadata/YoroRed.json"
   }
 }
