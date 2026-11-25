@@ -6,6 +6,15 @@ FPS = 30
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 
 PLAN = {
+ "PSVPenalty": [
+   ("at the bernabeu",   ["at the", "psv went", "the referee", "heres how"]),
+   ("first half inside", ["first half", "aurelien", "goes for", "and stands"]),
+   ("play goes on",      ["play goes", "then var", "to the monitor", "he watches", "and points", "tchouameni is"]),
+   ("the var protocol",  ["the var", "the video", "clear and obvious", "and the final"]),
+   ("so was it",         ["so was", "one refereeing", "reports differ"]),
+   ("ivan perisic",      ["ivan perisic", "psv lead", "then real", "valverde", "bellingham", "mbappe twice", "vinicius", "five one"]),
+   ("one var call",      ["one var", "it didnt", "clear and obvious", "you be the", "subscribe for"]),
+ ],
  "YoroRed": [
    ("inside ten minutes", ["inside ten", "down to ten", "heres how"]),
    ("a long ball",        ["a long ball", "matthijs de ligt", "alexander isak"]),
