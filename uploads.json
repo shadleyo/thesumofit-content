@@ -499,14 +499,11 @@
     "metadata": "metadata/YoroRed.json"
   },
   "PSVPenalty": {
-    "status": "built 2026-11-25, NOT published: scheduled cloud run had no browser (Chrome tools unavailable), so YouTube/TikTok upload could not run",
-    "youtube": null,
-    "youtube_published": null,
-    "tiktok_published": null,
-    "title": "PSV's VAR penalty at the Bernabéu: clear and obvious, or soft?",
+    "youtube": "YfGL2rMuo58",
+    "youtube_published": "2026-11-25",
+    "tiktok_published": "2026-11-25",
     "playlist": "Sport, by the numbers",
     "format": "tactic board #11 (board.tsx, football-box pitch)",
-    "sources": "NL Times, TuFutbolero/Mundo Deportivo, Goal, beIN SPORTS, 101 Great Goals, LaLiga match centre, IFAB VAR protocol (cross-verified foul on Mijnans, VAR on-field review, booking, Perišić 32', 0-1 HT, 5-1). Archivo VAR's backing is single-sourced via Goal and labelled as one account; award minute 28'-30' shown as disputed. Positions illustrative.",
-    "metadata": "metadata/PSVPenalty.json"
+    "sources": "NL Times, TuFutbolero/Mundo Deportivo, Goal, beIN SPORTS, 101 Great Goals, LaLiga match centre, IFAB VAR protocol (cross-verified foul on Mijnans, VAR on-field review, booking, Perišić 32', 0-1 HT, 5-1). Archivo VAR's backing is single-sourced via Goal and labelled as one account; award minute 28'-30' shown as disputed. Positions illustrative."
   }
 }
