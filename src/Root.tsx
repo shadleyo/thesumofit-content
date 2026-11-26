@@ -38,6 +38,7 @@ import {verstappenRussell} from './videos/VerstappenRussell';
 import {lakaiSteal} from './videos/lakaiSteal';
 import {yoroRed} from './videos/yoroRed';
 import {psvPenalty} from './videos/psvPenalty';
+import {gyokeresHandball} from './videos/gyokeresHandball';
 import {vegasMax} from './videos/vegasMax';
 import {mpc} from './videos/mpc';
 import {sandpapergate} from './videos/sandpapergate';
@@ -74,7 +75,7 @@ export const Root: React.FC = () => (
       <Composition key={'S' + r.id} id={'Sum-' + r.id} component={SumVideo} defaultProps={{recipe: {...r, series: SERIES[r.id]}}}
         durationInFrames={sumDuration(r)} fps={30} width={1080} height={1920} />
     ))}
-    {[penaltyTry, arendseOffside, knockOnCall, wieseRed, bogleTel, moodieTouch, boksBackline, verstappenRussell, lakaiSteal, vegasMax, yoroRed, psvPenalty].map((b) => (
+    {[penaltyTry, arendseOffside, knockOnCall, wieseRed, bogleTel, moodieTouch, boksBackline, verstappenRussell, lakaiSteal, vegasMax, yoroRed, psvPenalty, gyokeresHandball].map((b) => (
       <Composition key={'B' + b.id} id={'Sum-' + b.id} component={BoardVideo} defaultProps={{recipe: b}} durationInFrames={boardDuration(b)} fps={30} width={1080} height={1920} />
     ))}
     <Composition id="Wide-Ep1" component={WideVideo} defaultProps={{recipe: ep1}} durationInFrames={wideDuration(ep1)} fps={30} width={1920} height={1080} />
