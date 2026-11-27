@@ -6,6 +6,16 @@ FPS = 30
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 
 PLAN = {
+"DorguKeeper": [
+  ("in lisbon",          ["in lisbon", "then var", "heres how"]),
+  ("two all late",       ["two all", "a united corner", "sporting keeper", "and the ball", "own net"]),
+  ("then var sends",     ["then var", "to the monitor", "he rules", "no goal"]),
+  ("uefas explanation",  ["uefas", "dorgu fouled", "pundits saw", "who flapped"]),
+  ("under the var",      ["under the", "video can", "clear and obvious", "and the final"]),
+  ("it was uniteds",     ["it was", "before halftime", "but the whistle", "so var"]),
+  ("three penalties",    ["three penalties", "two goals", "and a late", "two all", "united nineteenth"]),
+  ("one corner",         ["one corner", "foul or", "you be the", "subscribe for"]),
+],
  "GyokeresHandball": [
    ("at the emirates",   ["at the", "dortmund wanted", "the referee", "heres how"]),
    ("viktor gyokeres",   ["viktor", "second half", "a dortmund corner", "inside the", "the ball hits"]),
