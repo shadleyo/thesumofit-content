@@ -516,5 +516,16 @@
     "format": "tactic board #12 (board.tsx, football-box pitch)",
     "sources": "Goal, Football Insider, Britbrief, Roundtable, africasoccer, getfootballnewsgermany, sportsnewsreport, FA Laws of the Game 2026/27 Law 12 (cross-verified: ball hit Gyökeres' arm from a second-half corner, referee Mariani played on with no on-field review, Kovač quote, Beier 55', 1-1, table). Whether VAR checked is disputed and shown as disputed; Hackett and Ittrich penalty verdicts are one report each. Positions illustrative.",
     "metadata": "metadata/GyokeresHandball.json"
+  },
+  "DorguKeeper": {
+    "status": "built 2026-11-27, NOT published: scheduled cloud run had no browser (Chrome tools unavailable), same as GyokeresHandball. Rendered mp4 + thumbnail staged; metadata ready.",
+    "youtube": null,
+    "youtube_published": null,
+    "tiktok_published": null,
+    "title": "Man United's late winner in Lisbon: foul on the keeper, or a flap?",
+    "playlist": "Sport, by the numbers",
+    "format": "tactic board #13 (board.tsx, football-box pitch)",
+    "sources": "Sky Sports, K24 Digital, Football360, NotJustOK, africasoccer, IFAB VAR protocol (cross-verified: 2-2 late on, United corner into Kaique's own net, VAR review, ruled out for a Dorgu foul on the keeper; Diallo goal ruled out after the whistle; three penalties; Tielemans red; United 19th). UEFA's explanation is one report (K24); foul-or-not is disputed (officials vs pundits Onuoha, Young, Davies) and shown as disputed; minute reported as 82', 83' or 84'. Positions illustrative.",
+    "metadata": "metadata/DorguKeeper.json"
   }
 }
