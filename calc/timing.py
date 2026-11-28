@@ -6,6 +6,16 @@ FPS = 30
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 
 PLAN = {
+"OpendaPenalty": [
+  ("in lyon the",        ["in lyon", "then var", "heres how"]),
+  ("nilnil against",     ["nilnil against", "substitute", "between two", "and goes down"]),
+  ("referee sebastian",  ["referee sebastian", "points to", "then var", "he changes", "no penalty"]),
+  ("the reason",         ["the reason", "the first defender", "lyons coach", "bacher"]),
+  ("under the var",      ["under the", "video can", "clear and obvious", "and the final"]),
+  ("it wasnt",           ["it wasnt", "an early", "a late", "cancelled because"]),
+  ("nilnil eight",       ["nilnil eight", "eight points", "lyon fourteenth"]),
+  ("one box",            ["one box", "ball first", "you be the", "subscribe for"]),
+],
 "DorguKeeper": [
   ("in lisbon",          ["in lisbon", "then var", "heres how"]),
   ("two all late",       ["two all", "a united corner", "sporting keeper", "and the ball", "own net"]),
