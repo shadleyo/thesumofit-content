@@ -527,5 +527,16 @@
     "format": "tactic board #13 (board.tsx, football-box pitch)",
     "sources": "Sky Sports, K24 Digital, Football360, NotJustOK, africasoccer, IFAB VAR protocol (cross-verified: 2-2 late on, United corner into Kaique's own net, VAR review, ruled out for a Dorgu foul on the keeper; Diallo goal ruled out after the whistle; three penalties; Tielemans red; United 19th). UEFA's explanation is one report (K24); foul-or-not is disputed (officials vs pundits Onuoha, Young, Davies) and shown as disputed; minute reported as 82', 83' or 84'. Positions illustrative.",
     "metadata": "metadata/DorguKeeper.json"
+  },
+  "OpendaPenalty": {
+    "status": "built 2026-11-28, NOT published: scheduled cloud run had no browser (Chrome tools unavailable), same as GyokeresHandball and DorguKeeper. Rendered mp4 + thumbnail staged; metadata ready.",
+    "youtube": null,
+    "youtube_published": null,
+    "tiktok_published": null,
+    "title": "Lyon's late penalty, taken away by VAR: ball first, or foul?",
+    "playlist": "Sport, by the numbers",
+    "format": "tactic board #14 (board.tsx, football-box pitch)",
+    "sources": "lyonfoot, Foot Mercato, Orange Sports, Footeo, Maxifoot, stephanelarue, IFAB VAR protocol (cross-verified: 0-0, Openda down between two defenders late on, referee Gishamer pointed to the spot then reversed after VAR, early Lyon goal ruled out for a foul on the keeper, late Lillestrøm red cancelled, Lyon 8 points, Bacher quote). The reason for the reversal is one report (Foot Mercato); the coach's 'very light' touch is one report (Orange); foul-or-not disputed (officials vs Lyon); minute 88'/89'/90' and position 14th/15th differ by report. Positions illustrative.",
+    "metadata": "metadata/OpendaPenalty.json"
   }
 }
